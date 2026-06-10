@@ -65,8 +65,8 @@ export default function RootLayout({
       className={`${geistSans.variable} ${fraunces.variable} bg-background`}
     >
       <body className="font-sans antialiased">
-        {children}
-        <GoogleTagManager gtmId="GTM-N3RGS23Z" />
+               <GoogleTagManager gtmId="GTM-N3RGS23Z" />
+         {children}
       </body>
     </html>
   )
