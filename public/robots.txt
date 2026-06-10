@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abroadvisions.com/sitemap.xml
