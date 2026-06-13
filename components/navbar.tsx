@@ -12,7 +12,6 @@ const links = [
   { label: "Countries", href: "/#countries" },
   { label: "Universities", href: "/#universities" },
   { label: "Course Finder", href: "/course-finder" },
-  { label: "Cost", href: "/#calculator" },
   { label: "Eligibility", href: "/#eligibility" },
   { label: "Stories", href: "/#stories" },
 ]

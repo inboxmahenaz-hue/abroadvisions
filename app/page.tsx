@@ -3,7 +3,6 @@ import { Hero } from "@/components/hero"
 import { WhySection } from "@/components/why-section"
 import { CountryExplorer } from "@/components/country-explorer"
 import { UniversityDirectory } from "@/components/university-directory"
-import { FeeCalculator } from "@/components/fee-calculator"
 import { EligibilityChecker } from "@/components/eligibility-checker"
 import { Timeline } from "@/components/timeline"
 import { FmgeSection } from "@/components/fmge-section"
@@ -25,7 +24,6 @@ export default function Page() {
         <WhySection />
         <CountryExplorer />
         <UniversityDirectory />
-        <FeeCalculator />
         <EligibilityChecker />
         <Timeline />
         <FmgeSection />
