@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react"
 import Image from "next/image"
+import Link from "next/link"
 import { Menu, X, Phone } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { whatsappLink } from "@/lib/data"
@@ -10,6 +11,7 @@ const links = [
   { label: "Why Abroad", href: "#why" },
   { label: "Countries", href: "#countries" },
   { label: "Universities", href: "#universities" },
+  { label: "Course Finder", href: "/course-finder" },
   { label: "Cost", href: "#calculator" },
   { label: "Eligibility", href: "#eligibility" },
   { label: "Stories", href: "#stories" },
@@ -55,17 +57,22 @@ export function Navbar() {
           </span>
         </a>
 
-        <div className="hidden items-center gap-1 lg:flex">
-          {links.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
-              className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
-            >
-              {l.label}
-            </a>
-          ))}
-        </div>
+  <div className="hidden items-center gap-1 lg:flex">
+  {links.map((l) => (
+    <Link
+      key={l.href}
+      href={l.href}
+      className={cn(
+        "rounded-lg px-3 py-2 text-sm font-medium transition-colors",
+        l.href === "/course-finder"
+          ? "text-accent font-semibold hover:bg-accent/10"
+          : "text-muted-foreground hover:bg-secondary hover:text-foreground"
+      )}
+    >
+      {l.label}
+    </Link>
+  ))}
+</div>
 
         <div className="flex items-center gap-2">
           <a
@@ -99,15 +106,18 @@ export function Navbar() {
         <div className="mx-auto mt-2 max-w-6xl rounded-2xl border border-border bg-background/95 p-3 shadow-lg backdrop-blur-xl lg:hidden">
           <div className="flex flex-col">
             {links.map((l) => (
-              <a
-                key={l.href}
-                href={l.href}
-                onClick={() => setOpen(false)}
-                className="rounded-lg px-3 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
-              >
-                {l.label}
-              </a>
-            ))}
+  <Link
+    key={l.href}
+    href={l.href}
+    onClick={() => setOpen(false)}
+    className={cn(
+      "rounded-lg px-3 py-2.5 text-sm font-medium transition-colors hover:bg-secondary",
+      l.href === "/course-finder" ? "text-accent font-semibold" : "text-foreground"
+    )}
+  >
+    {l.label}
+  </Link>
+))}
             <a
               href={whatsappLink("Hi Abroad Visions, I'd like free MBBS abroad counselling.")}
               target="_blank"

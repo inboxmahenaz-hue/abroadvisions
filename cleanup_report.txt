@@ -1,0 +1,12 @@
+============================================================
+DATA CLEANUP REPORT (v2)
+============================================================
+Total entries: 219
+Countries fixed/changed: 2
+Countries still unresolved: 0
+Addresses cleaned: 0
+Fee fields cleaned: 0
+
+--- Details ---
+[id 88] Orenburg State Medical University: country "null" -> "Russia" (address: "Sovetskaya Ulitsa, 6", city: "Orenburg")
+[id 237] Texila American University(TAU): country "null" -> "Guyana" (address: "Lot 2442", city: "Plantation Providence East Bank Demerara Georgetown")
