@@ -8,13 +8,13 @@ import { cn } from "@/lib/utils"
 import { whatsappLink } from "@/lib/data"
 
 const links = [
-  { label: "Why Abroad", href: "#why" },
-  { label: "Countries", href: "#countries" },
-  { label: "Universities", href: "#universities" },
+  { label: "Why Abroad", href: "/#why" },
+  { label: "Countries", href: "/#countries" },
+  { label: "Universities", href: "/#universities" },
   { label: "Course Finder", href: "/course-finder" },
-  { label: "Cost", href: "#calculator" },
-  { label: "Eligibility", href: "#eligibility" },
-  { label: "Stories", href: "#stories" },
+  { label: "Cost", href: "/#calculator" },
+  { label: "Eligibility", href: "/#eligibility" },
+  { label: "Stories", href: "/#stories" },
 ]
 
 export function Navbar() {
@@ -38,7 +38,7 @@ export function Navbar() {
             : "border-transparent bg-transparent",
         )}
       >
-        <a href="#top" className="flex items-center gap-2.5" aria-label="Abroad Visions home">
+        <a href="/#top" className="flex items-center gap-2.5" aria-label="Abroad Visions home">
           <Image
             src="/images/abroad-visions-logo.jpeg"
             alt="Abroad Visions logo"
