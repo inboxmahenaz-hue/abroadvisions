@@ -16,7 +16,10 @@ const fraunces = Fraunces({
 })
 
 export const metadata: Metadata = {
-  title: 'Abroad Visions — Honest MBBS Abroad Advisory for NEET Students',
+title: 'Abroad Visions — Honest MBBS Abroad Advisory for NEET Students',
+  verification: {
+    google: 'JeO2dAG8Mv-vkzwsqs9zP6d0uZxLhobPs_X23ou8At8',
+  },
   description:
     'NMC-approved MBBS abroad guidance for Indian students and parents. Compare 7 countries, calculate total costs, check NEET eligibility, and get free counselling. Recommendations based on real FMGE data — not commission.',
   keywords: [
@@ -65,8 +68,8 @@ export default function RootLayout({
       className={`${geistSans.variable} ${fraunces.variable} bg-background`}
     >
       <body className="font-sans antialiased">
-        {children}
-        <GoogleTagManager gtmId="GTM-N3RGS23Z" />
+               <GoogleTagManager gtmId="GTM-N3RGS23Z" />
+         {children}
       </body>
     </html>
   )
