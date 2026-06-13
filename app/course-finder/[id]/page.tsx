@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Image from "next/image";
+import { Navbar } from "@/components/navbar";
 
 const FLAG_MAP: Record<string, string> = {
   Russia: "🇷🇺", Bangladesh: "🇧🇩", China: "🇨🇳", Nepal: "🇳🇵",
@@ -29,21 +30,27 @@ export default function UniversityDetailPage() {
   }, [id]);
 
   if (loading) return (
-    <div className="min-h-screen flex items-center justify-center" style={{ background: "oklch(0.97 0.01 264)" }}>
-      <div className="text-center">
-        <div className="w-12 h-12 border-4 border-t-transparent rounded-full animate-spin mx-auto mb-4" style={{ borderColor: "oklch(0.27 0.06 264)", borderTopColor: "transparent" }} />
-        <p style={{ color: "oklch(0.27 0.06 264)", fontFamily: "var(--font-geist-sans)" }}>Loading...</p>
+    <>
+      <Navbar />
+      <div className="min-h-screen flex items-center justify-center" style={{ background: "oklch(0.97 0.01 264)", paddingTop: 96 }}>
+        <div className="text-center">
+          <div className="w-12 h-12 border-4 border-t-transparent rounded-full animate-spin mx-auto mb-4" style={{ borderColor: "oklch(0.27 0.06 264)", borderTopColor: "transparent" }} />
+          <p style={{ color: "oklch(0.27 0.06 264)", fontFamily: "var(--font-geist-sans)" }}>Loading...</p>
+        </div>
       </div>
-    </div>
+    </>
   );
 
   if (!uni || uni.error) return (
-    <div className="min-h-screen flex items-center justify-center" style={{ background: "oklch(0.97 0.01 264)" }}>
-      <div className="text-center">
-        <p className="text-2xl mb-4">University not found</p>
-        <button onClick={() => router.push("/course-finder")} className="px-6 py-2 rounded-full text-white" style={{ background: "oklch(0.27 0.06 264)" }}>← Back to Course Finder</button>
+    <>
+      <Navbar />
+      <div className="min-h-screen flex items-center justify-center" style={{ background: "oklch(0.97 0.01 264)", paddingTop: 96 }}>
+        <div className="text-center">
+          <p className="text-2xl mb-4">University not found</p>
+          <button onClick={() => router.push("/course-finder")} className="px-6 py-2 rounded-full text-white" style={{ background: "oklch(0.27 0.06 264)" }}>← Back to Course Finder</button>
+        </div>
       </div>
-    </div>
+    </>
   );
 
   const flag = FLAG_MAP[uni.country] || "🌍";
@@ -53,7 +60,9 @@ export default function UniversityDetailPage() {
   const feeWaLink = `https://wa.me/${WA_NUMBER}?text=${feeWaMessage}`;
 
   return (
-    <div style={{ background: "oklch(0.97 0.01 264)", minHeight: "100vh", fontFamily: "var(--font-geist-sans)" }}>
+    <>
+      <Navbar />
+      <div style={{ background: "oklch(0.97 0.01 264)", minHeight: "100vh", fontFamily: "var(--font-geist-sans)", paddingTop: 96 }}>
 
       {/* Back button */}
       <div className="max-w-5xl mx-auto px-4 pt-6">
@@ -167,7 +176,7 @@ export default function UniversityDetailPage() {
         <div className="flex flex-col gap-4">
 
           {/* Fee card */}
-          <div className="rounded-2xl p-5" style={{ background: "oklch(0.27 0.06 264)" }}>
+          <div className="rounded-2xl p-5" style={{ background: "oklch(0.58 0.21 25)" }}>
             <h2 className="font-bold text-base mb-1 text-white">Fee Structure</h2>
             <p className="text-sm mb-4" style={{ color: "rgba(255,255,255,0.7)" }}>Get the latest 2025 fee details directly from our counsellors</p>
             <a href={feeWaLink} target="_blank" rel="noopener noreferrer"
@@ -210,6 +219,7 @@ export default function UniversityDetailPage() {
 
         </div>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

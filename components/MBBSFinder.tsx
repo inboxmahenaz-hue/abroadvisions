@@ -313,6 +313,8 @@ function WhatsAppIcon() {
 }
 
 const PRIMARY = "oklch(0.27 0.06 264)";
+const ACCENT = "oklch(0.58 0.21 25)";
+const ACCENT_FG = "oklch(0.99 0.003 92)";
 const PRIMARY_FG = "oklch(0.99 0.003 92)";
 const FOREGROUND = "oklch(0.21 0.03 264)";
 const SUCCESS = "oklch(0.62 0.15 155)";
@@ -328,7 +330,7 @@ const FONT_DISPLAY = "var(--font-display, var(--font-geist-sans, 'Geist', system
 
 const s: Record<string, React.CSSProperties> = {
   root: { fontFamily: FONT_SANS, maxWidth: 1200, margin: "0 auto", padding: "0 16px 48px", color: FOREGROUND },
-  header: { background: PRIMARY, borderRadius: RADIUS_LG, padding: "40px 32px", marginBottom: 28, textAlign: "center", color: PRIMARY_FG },
+  header: { background: ACCENT, borderRadius: RADIUS_LG, padding: "40px 32px", marginBottom: 28, textAlign: "center", color: ACCENT_FG },
   heading: { margin: 0, fontFamily: FONT_DISPLAY, fontSize: "clamp(24px,4vw,36px)", fontWeight: 700, letterSpacing: "-0.5px" },
   subheading: { margin: "8px 0 0", fontSize: 15, opacity: 0.85, fontWeight: 400 },
   filterBar: { display: "flex", gap: 12, marginBottom: 16, flexWrap: "wrap" },
