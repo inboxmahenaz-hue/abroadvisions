@@ -166,8 +166,8 @@ export function LeadPopup() {
                 <option value="Kyrgyzstan">Kyrgyzstan</option>
                 <option value="Nepal">Nepal</option>
                 <option value="Bangladesh">Bangladesh</option>
-                <option value="Philippines">Philippines</option>
                 <option value="Georgia">Georgia</option>
+                <option value="Armenia">Armenia</option>
                 <option value="Not sure">Not sure yet</option>
               </select>
             </div>
