@@ -26,7 +26,7 @@ const reasons = [
 ]
 
 const comparison = [
-  { label: "Private MBBS in India",      value: "₹80L – ₹1 Cr", pct: 100, tone: "bg-destructive" },
+  { label: "Private MBBS in India",      value: "₹80L – ₹2 Cr", pct: 100, tone: "bg-destructive" },
   { label: "Georgia MBBS (total)",        value: "₹28 – 42L",    pct: 42,  tone: "bg-primary/60" },
   { label: "Bangladesh MBBS (total)",     value: "₹30 – 45L",    pct: 45,  tone: "bg-primary/60" },
   { label: "Kazakhstan MBBS (total)",     value: "₹25 – 38L",    pct: 38,  tone: "bg-primary/60" },
@@ -48,7 +48,7 @@ export function WhySection() {
               <span className="text-accent">only path</span> to an MD.
             </>
           }
-          description="Over 2 lakh students appear for NEET each year and don't secure a government seat. Private MBBS in India can cost ₹80L–1 Crore. MBBS abroad is the established alternative — same NMC recognition, a fraction of the cost."
+          description="Over 2 lakh students appear for NEET each year and don't secure a government seat. Private MBBS in India costs ₹80L–2 Crore at management and deemed university seats. MBBS abroad is the established alternative — same NMC recognition, a fraction of the cost."
         />
 
         <div className="mt-14 grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-12">
