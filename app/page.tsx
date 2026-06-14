@@ -14,6 +14,7 @@ import { CounsellingForm } from "@/components/counselling-form"
 import { SiteFooter } from "@/components/site-footer"
 import { WhatsAppFloat } from "@/components/whatsapp-float"
 import { LeadPopup } from "@/components/lead-popup"
+import { AutoGuidePopup } from "@/components/guide-download-popup"
 
 export default function Page() {
   return (
@@ -36,6 +37,7 @@ export default function Page() {
       <SiteFooter />
       <WhatsAppFloat />
       <LeadPopup />
+      <AutoGuidePopup />
     </>
   )
 }
