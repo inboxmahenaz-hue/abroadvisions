@@ -43,7 +43,7 @@ export const countries: Country[] = [
     filterTags: ["budget"],
     highlights: [
       "Most affordable NMC-approved destination available",
-      "Halal food and Indian community in major university cities",
+      "Indian community present in major university cities",
       "Select universities have strong NExT preparation focus",
     ],
     summary:
@@ -64,7 +64,7 @@ export const countries: Country[] = [
     filterTags: ["budget", "established"],
     highlights: [
       "Among the most affordable NMC-approved destinations",
-      "Halal food and Indian restaurants widely available",
+      "Indian restaurants widely available, familiar food culture",
       "Safe, stable country with a growing Indian student presence",
     ],
     summary:
@@ -86,7 +86,7 @@ export const countries: Country[] = [
     highlights: [
       "Modern university infrastructure with well-equipped teaching hospitals",
       "Two intake windows — June and September",
-      "Halal food widely available throughout the country",
+      "Indian food options available in major university cities",
     ],
     summary:
       "An increasingly popular destination combining solid infrastructure with strong clinical exposure. Two intake windows give families flexibility in planning.",
@@ -170,7 +170,7 @@ export const countries: Country[] = [
     highlights: [
       "Two intakes per year — January and July",
       "5-year programme, shorter than most other destinations",
-      "Halal food widely available, culturally familiar environment",
+      "Culturally familiar environment, Indian food widely available",
     ],
     summary:
       "A practical option for families in eastern and northern India seeking cultural familiarity. Two intakes give flexibility if a student misses one admission cycle.",
@@ -199,7 +199,7 @@ export const countries: Country[] = [
 ]
 
 // ─── Photo base
-export const PHOTO_BASE = "https://studyabroadsystem.com/storage/"
+export const PHOTO_BASE = "/university-images/"
 
 export type FeaturedUniversity = {
   id: number
@@ -221,7 +221,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Russia",
     flag: "🇷🇺",
     city: "Kazan",
-    logo: "logos/sCgjMYtfT2zNczNGwBAI4u6UEErAiLnw1jT5sztG.jpg",
+    logo: "logos/224.jpg",
     established: "1804",
   },
   {
@@ -231,7 +231,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Russia",
     flag: "🇷🇺",
     city: "Kazan",
-    logo: "logos/pWjwDyDktw5usreZ2VZV1r3XuHbJIVEV78ymHpPf.jpg",
+    logo: "logos/43.jpg",
     established: "1814",
   },
   {
@@ -241,7 +241,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Russia",
     flag: "🇷🇺",
     city: "Perm",
-    logo: "logos/7Pr7GhBsTRyh5wrTuBwqKpIPraYoTqYH6TwyCoKA.png",
+    logo: "logos/61.png",
     established: "1916",
   },
   {
@@ -251,7 +251,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Russia",
     flag: "🇷🇺",
     city: "Volgograd",
-    logo: "logos/HFPxAIm22qPYMlE2TYg4gblJ26g5oGovJGmJIUVe.jpg",
+    logo: "logos/33.jpg",
     established: "1935",
   },
   {
@@ -261,7 +261,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Russia",
     flag: "🇷🇺",
     city: "Orenburg",
-    logo: "logos/4GAtEhGvl0WPXIz5KdG5Fmw1amLz1d7VNvMXhKCO.jpg",
+    logo: "logos/88.jpg",
     established: "1944",
   },
   // Uzbekistan
@@ -272,7 +272,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Uzbekistan",
     flag: "🇺🇿",
     city: "Tashkent",
-    logo: "logos/fFxceQNILjHDk4uRT1J8Eqwbl56NE909MYUxivvg.jpg",
+    logo: "logos/71.jpg",
     established: "1919",
   },
   {
@@ -282,7 +282,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Uzbekistan",
     flag: "🇺🇿",
     city: "Samarkand",
-    logo: "logos/VjgA7T8gQWVd844Vayy8B2CZvs4oZzX8fj8u7xUU.jpg",
+    logo: "logos/69.jpg",
     established: "1930",
   },
   // Georgia
@@ -293,7 +293,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Georgia",
     flag: "🇬🇪",
     city: "Tbilisi",
-    logo: "logos/gzPLZrGHTgazxvHLBDC2hzZFZZL2aU1v9MaMXg38.jpg",
+    logo: "logos/73.jpg",
     established: "2004",
   },
   {
@@ -303,7 +303,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Georgia",
     flag: "🇬🇪",
     city: "Tbilisi",
-    logo: "logos/XoGv1yqUdej13tytcJ3cgGj2c1nuLFkPaLV2kG4s.jpg",
+    logo: "logos/105.jpg",
     established: "1992",
   },
   {
@@ -313,7 +313,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Georgia",
     flag: "🇬🇪",
     city: "Tbilisi",
-    logo: "logos/rfnRUZRIZxhXhWaeD2F6faiLMfQQ9nw4Yv5jZZu1.jpg",
+    logo: "logos/221.jpg",
     established: "1918",
   },
   {
@@ -323,7 +323,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Georgia",
     flag: "🇬🇪",
     city: "Tbilisi",
-    logo: "logos/xfoWGvtk48smnMClAUvz7QnCUpDSTedC0OswpMoU.jpg",
+    logo: "logos/75.jpg",
     established: "2001",
   },
   // Kazakhstan
@@ -334,7 +334,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Kazakhstan",
     flag: "🇰🇿",
     city: "Almaty",
-    logo: "logos/QJ02KvfpxREpuuhTfLt2S2V95u573gzZeeXtrXai.jpg",
+    logo: "logos/115.jpg",
     established: "1930",
   },
   {
@@ -344,7 +344,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Kazakhstan",
     flag: "🇰🇿",
     city: "Aktobe",
-    logo: "logos/QkbqN2CQhoECv3731zQ9drLwqfwKrqz3zaLokNA3.jpg",
+    logo: "logos/113.jpg",
     established: "1957",
   },
   // Kyrgyzstan
@@ -355,7 +355,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Kyrgyzstan",
     flag: "🇰🇬",
     city: "Osh",
-    logo: "logos/XLaBe7kgZ2EsktrrlXaRORxvbQXDg1aqYAda8Go7.jpg",
+    logo: "logos/92.jpg",
     established: "1996",
   },
   {
@@ -365,7 +365,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Kyrgyzstan",
     flag: "🇰🇬",
     city: "Kant",
-    logo: "logos/kBcnjEszZWDUBDzrL73RALx2TUz8vP39mRykekld.jpg",
+    logo: "logos/112.jpg",
     established: "2002",
   },
   // Armenia
@@ -376,7 +376,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Armenia",
     flag: "🇦🇲",
     city: "Yerevan",
-    logo: "logos/IzowDHqVhn7lT5kBhFrxx8Mq4zilnoFTgUo67OGR.jpg",
+    logo: "logos/63.jpg",
     established: "2014",
   },
   // Nepal
@@ -387,7 +387,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Nepal",
     flag: "🇳🇵",
     city: "Pokhara",
-    logo: "logos/rCYw1Jdq8XE6wsVphxQy7YLzTVV4P8YEWcgzQLl6.jpg",
+    logo: "logos/208.jpg",
     established: "1994",
   },
   {
@@ -397,7 +397,7 @@ export const featuredUniversities: FeaturedUniversity[] = [
     country: "Nepal",
     flag: "🇳🇵",
     city: "Biratnagar",
-    logo: "logos/I0jozFNRCPWV8Ms3TR7wOvVhykb4ziUneHhYFaw7.png",
+    logo: "logos/241.png",
     established: "2004",
   },
 ]
@@ -477,3 +477,4 @@ export function whatsappLink(message?: string) {
   if (!message) return base
   return `${base}?text=${encodeURIComponent(message)}`
 }
+
