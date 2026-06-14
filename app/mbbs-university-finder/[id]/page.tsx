@@ -47,7 +47,7 @@ export default function UniversityDetailPage() {
       <div className="min-h-screen flex items-center justify-center" style={{ background: "oklch(0.97 0.01 264)", paddingTop: 96 }}>
         <div className="text-center">
           <p className="text-2xl mb-4">University not found</p>
-          <button onClick={() => router.push("/course-finder")} className="px-6 py-2 rounded-full text-white" style={{ background: "oklch(0.27 0.06 264)" }}>← Back to Course Finder</button>
+          <button onClick={() => router.push("/mbbs-university-finder")} className="px-6 py-2 rounded-full text-white" style={{ background: "oklch(0.27 0.06 264)" }}>← Back to MBBS University Finder</button>
         </div>
       </div>
     </>
@@ -66,10 +66,10 @@ export default function UniversityDetailPage() {
 
       {/* Back button */}
       <div className="max-w-5xl mx-auto px-4 pt-6">
-        <button onClick={() => router.push("/course-finder")}
+        <button onClick={() => router.push("/mbbs-university-finder")}
           className="flex items-center gap-2 text-sm font-medium px-4 py-2 rounded-full transition-all hover:opacity-80"
           style={{ background: "oklch(0.27 0.06 264)", color: "white" }}>
-          ← Back to Course Finder
+          ← Back to MBBS University Finder
         </button>
       </div>
 

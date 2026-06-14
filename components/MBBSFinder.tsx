@@ -232,7 +232,7 @@ function UniversityCard({ university: u }: { university: University }) {
   }
 
   function handleViewDetails() {
-    router.push(`/course-finder/${u.id}`);
+    router.push(`/mbbs-university-finder/${u.id}`);
   }
 
   return (

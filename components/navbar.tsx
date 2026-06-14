@@ -3,18 +3,21 @@
 import { useEffect, useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { Menu, X, Phone } from "lucide-react"
+import { Menu, X, Phone, GraduationCap } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { whatsappLink } from "@/lib/data"
 
+// Regular nav links — "MBBS University Finder" deliberately NOT here.
+// It's the primary USP and gets its own button treatment, not a text link.
 const links = [
   { label: "Why Abroad", href: "/#why" },
   { label: "Countries", href: "/#countries" },
   { label: "Universities", href: "/#universities" },
-  { label: "Course Finder", href: "/course-finder" },
   { label: "Eligibility", href: "/#eligibility" },
   { label: "Stories", href: "/#stories" },
 ]
+
+const FINDER_HREF = "/mbbs-university-finder"
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -37,6 +40,7 @@ export function Navbar() {
             : "border-transparent bg-transparent",
         )}
       >
+        {/* Logo */}
         <a href="/#top" className="flex items-center gap-2.5" aria-label="Abroad Visions home">
           <Image
             src="/images/abroad-visions-logo.jpeg"
@@ -56,39 +60,49 @@ export function Navbar() {
           </span>
         </a>
 
-  <div className="hidden items-center gap-1 lg:flex">
-  {links.map((l) => (
-    <Link
-      key={l.href}
-      href={l.href}
-      className={cn(
-        "rounded-lg px-3 py-2 text-sm font-medium transition-colors",
-        l.href === "/course-finder"
-          ? "text-accent font-semibold hover:bg-accent/10"
-          : "text-muted-foreground hover:bg-secondary hover:text-foreground"
-      )}
-    >
-      {l.label}
-    </Link>
-  ))}
-</div>
+        {/* Desktop nav links — plain text, secondary nav */}
+        <div className="hidden items-center gap-1 lg:flex">
+          {links.map((l) => (
+            <Link
+              key={l.href}
+              href={l.href}
+              className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
+            >
+              {l.label}
+            </Link>
+          ))}
+        </div>
 
+        {/* Right cluster — Finder (USP, accent) + Free Counselling (primary) + Phone */}
         <div className="flex items-center gap-2">
           <a
             href="tel:9084676999"
-            className="hidden items-center gap-2 rounded-xl border border-border bg-card px-3.5 py-2 text-sm font-medium text-foreground transition-colors hover:bg-secondary sm:flex"
+            className="hidden items-center gap-2 rounded-xl border border-border bg-card px-3.5 py-2 text-sm font-medium text-foreground transition-colors hover:bg-secondary md:flex"
           >
             <Phone className="size-4" />
             9084676999
           </a>
+
+          {/* MBBS University Finder — primary USP button, accent-filled */}
+          <Link
+            href={FINDER_HREF}
+            className="hidden items-center gap-1.5 rounded-xl bg-accent px-4 py-2 text-sm font-semibold text-accent-foreground shadow-[0_6px_20px_-6px_var(--accent)] transition-transform hover:scale-[1.03] sm:inline-flex"
+          >
+            <GraduationCap className="size-4" />
+            MBBS University Finder
+          </Link>
+
+          {/* Free Counselling — secondary CTA, primary/navy */}
           <a
             href={whatsappLink("Hi Abroad Visions, I'd like free MBBS abroad counselling.")}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden rounded-xl bg-accent px-4 py-2 text-sm font-semibold text-accent-foreground transition-transform hover:scale-[1.03] sm:inline-flex"
+            className="hidden rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition-transform hover:scale-[1.03] sm:inline-flex"
           >
             Free Counselling
           </a>
+
+          {/* Mobile menu toggle */}
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
@@ -101,30 +115,55 @@ export function Navbar() {
         </div>
       </nav>
 
+      {/* Mobile dropdown */}
       {open && (
         <div className="mx-auto mt-2 max-w-6xl rounded-2xl border border-border bg-background/95 p-3 shadow-lg backdrop-blur-xl lg:hidden">
-          <div className="flex flex-col">
-            {links.map((l) => (
-  <Link
-    key={l.href}
-    href={l.href}
-    onClick={() => setOpen(false)}
-    className={cn(
-      "rounded-lg px-3 py-2.5 text-sm font-medium transition-colors hover:bg-secondary",
-      l.href === "/course-finder" ? "text-accent font-semibold" : "text-foreground"
-    )}
-  >
-    {l.label}
-  </Link>
-))}
+          <div className="flex flex-col gap-2">
+
+            {/* Finder — top of mobile menu, full-width accent button */}
+            <Link
+              href={FINDER_HREF}
+              onClick={() => setOpen(false)}
+              className="flex items-center justify-center gap-2 rounded-xl bg-accent px-4 py-3 text-sm font-semibold text-accent-foreground"
+            >
+              <GraduationCap className="size-4" />
+              MBBS University Finder
+            </Link>
+
+            {/* Free Counselling — full-width primary button */}
             <a
               href={whatsappLink("Hi Abroad Visions, I'd like free MBBS abroad counselling.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-2 rounded-xl bg-accent px-4 py-3 text-center text-sm font-semibold text-accent-foreground"
+              onClick={() => setOpen(false)}
+              className="rounded-xl bg-primary px-4 py-3 text-center text-sm font-semibold text-primary-foreground"
             >
               Get Free Counselling
             </a>
+
+            {/* Phone — visible on mobile where header phone link is hidden */}
+            <a
+              href="tel:9084676999"
+              onClick={() => setOpen(false)}
+              className="flex items-center justify-center gap-2 rounded-xl border border-border bg-card px-4 py-2.5 text-sm font-medium text-foreground"
+            >
+              <Phone className="size-4" />
+              9084676999
+            </a>
+
+            <div className="my-1 h-px bg-border" />
+
+            {/* Secondary nav links */}
+            {links.map((l) => (
+              <Link
+                key={l.href}
+                href={l.href}
+                onClick={() => setOpen(false)}
+                className="rounded-lg px-3 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
+              >
+                {l.label}
+              </Link>
+            ))}
           </div>
         </div>
       )}
