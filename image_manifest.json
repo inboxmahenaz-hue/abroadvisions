@@ -1,0 +1,1362 @@
+[
+  {
+    "id": 10,
+    "university_id": 9,
+    "name": "Novosibirsk State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/mut8EQVLANQC9DQpDasyZRZuYWdC55yh76AAxHvA.jpg",
+    "photo_path": "university_photos/dJ29hs7wcNIUnpoJqH5sx7ahXK0qjH6lhWRQ0DYZ.jpg"
+  },
+  {
+    "id": 13,
+    "university_id": 12,
+    "name": "Bashkir State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/X6guiPTDOIMdHI4dSlCIcFu19nOCIPP57AoAOHZb.jpg",
+    "photo_path": "university_photos/yxUZNd2delJpQmtdfPvLqpRJnK2oZAch74XNNzEU.png"
+  },
+  {
+    "id": 14,
+    "university_id": 13,
+    "name": "Tyumen State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/MUF10ZZ7vM08gMTr7l9PsY3S9DrQqC50QOQx1Eei.jpg",
+    "photo_path": "university_photos/wAM4Mi6sjAdZiPuiel9igNWn91JVI8GfMyBMJCJ3.png"
+  },
+  {
+    "id": 23,
+    "university_id": 8,
+    "name": "Ingush State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/LWBykEaSPpQJzcJcCHGmPrmPZ0is4QM4xMqsCcqf.jpg",
+    "photo_path": "university_photos/UvG6ZZWD5vU46qeeBfIwpzrOeY0nF6zerZQVOWae.png"
+  },
+  {
+    "id": 24,
+    "university_id": 14,
+    "name": "Ural State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/iDSeD0XNxv6lflIEfAwsAono0vjJTGhnK0vqocEZ.jpg",
+    "photo_path": "university_photos/QGEwwWNx6otDF3WUOUTRroOe4EPFb6nvwXAuXfTh.png"
+  },
+  {
+    "id": 25,
+    "university_id": 15,
+    "name": "Chuvash State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/ZliujOSAgYsvK9L6yS2uqbXFeDHLDf7HS7vMOS9l.jpg",
+    "photo_path": "university_photos/sC6qnYeQXvTsjUlzWAaBv0PqnqRSLRbojlZlW5mI.png"
+  },
+  {
+    "id": 26,
+    "university_id": 16,
+    "name": "Ulyanovsk State University",
+    "country": "Russia",
+    "logo_path": "logos/bqomV4APNbntpVLTCPQVROHUiPfKVlsNcdhEFrGB.jpg",
+    "photo_path": "university_photos/SsitosquJyVgwxG1xqZthGJZ7bMiU0KiYvsNiwEZ.jpg"
+  },
+  {
+    "id": 28,
+    "university_id": 17,
+    "name": "North Ossetian State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/K8IjbhGySya922Ujekn1t9SqtzNJP0MAPHIs2rR2.jpg",
+    "photo_path": "university_photos/kyvD8LKYgH6N9MnZqvNRH3xKNpafdQnxM9dPkc78.jpg"
+  },
+  {
+    "id": 29,
+    "university_id": 18,
+    "name": "Kabardino-Balkarian State university",
+    "country": "Russia",
+    "logo_path": "logos/omlNsFEAbzMdY3kKNOpzwongodxzTuPFt3J12BQG.jpg",
+    "photo_path": "university_photos/b0kfXhuGfmXdFRB9hWfJ3pOri8hO4Frm2DprMSgt.jpg"
+  },
+  {
+    "id": 30,
+    "university_id": 19,
+    "name": "Chechen State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/DTGuaD085ojmB1sNRtcFumklFPl27fIOElQhXpK3.jpg",
+    "photo_path": "university_photos/U8dq72EgihxAed60NzllIA1GkoB43WZpkrT9gEw0.jpg"
+  },
+  {
+    "id": 31,
+    "university_id": 20,
+    "name": "Kursk State University",
+    "country": "Russia",
+    "logo_path": "logos/L04y4OtyB7VQyD5cNO2w0TE0WNDlsCiN0Z3QJX5e.png",
+    "photo_path": "university_photos/fKwrnQVNvl67qgEgdufQnXjrOOgZsw1wAuQEvvPP.png"
+  },
+  {
+    "id": 32,
+    "university_id": 21,
+    "name": "Mordovia State University",
+    "country": "Russia",
+    "logo_path": "logos/6un8GGJpKsN3E1KSy4itukhDbmKOUDO7afdFxcgI.png",
+    "photo_path": "university_photos/Z2ZiDOyI2VzhRsBocmyje8E8kpzOBbYZawzRzs8t.png"
+  },
+  {
+    "id": 33,
+    "university_id": 22,
+    "name": "Volgograd State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/KD4mrfl4XBTEVL9LNqGnOEw7t8KM0OOLKbt6AA11.jpg",
+    "photo_path": "university_photos/IhQeYGHwm6nYJRPeR6AuYFKKwBZjxWTtQPL3L4Eo.jpg"
+  },
+  {
+    "id": 34,
+    "university_id": 23,
+    "name": "North Western State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/4YpWZFLU7alBUMPh5ymYBM0A4YcVRDC72mIGsquX.jpg",
+    "photo_path": "university_photos/siDGnFozpEMmTikjVQSMrUs8IvDoBtFFCsVfUq4P.png"
+  },
+  {
+    "id": 35,
+    "university_id": 24,
+    "name": "Privolzhsky Research Medical University",
+    "country": "Russia",
+    "logo_path": "logos/s4wxmHFxomPKfvZmzoN98ST7AtufjFkXn8jdpvtf.jpg",
+    "photo_path": "university_photos/nKw1nyvHmKf04ulVVfke7Vn4tGlsEC5aSA0w792R.jpg"
+  },
+  {
+    "id": 36,
+    "university_id": 25,
+    "name": "Tver State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/TXtwK4sflpVl0Ean9N9Pc8GbF4d07I4vrFqlzPQt.jpg",
+    "photo_path": "university_photos/dlzXce7vslrYVSClzFq21yCmconZhEiajrHU3lAW.jpg"
+  },
+  {
+    "id": 37,
+    "university_id": 26,
+    "name": "Lobac hevsky National Research University",
+    "country": "Russia",
+    "logo_path": "logos/Ksv0vtRF1zu4XXguMlNhH7QoX2Iuwd30Exz4Nmbr.jpg",
+    "photo_path": "university_photos/n7yrk98Tw9v3vxuPNBdux2SIqQb4OEXlMkTQIMsl.jpg"
+  },
+  {
+    "id": 38,
+    "university_id": 27,
+    "name": "Voronezh State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/YQEU3Q3TGrOM7bxjI7SPHUiNkquSLaGeP9o2BWLn.jpg",
+    "photo_path": "university_photos/EsD3sTcDKb6aDZdt2K4z5gMv5uBgc5dwTmL73E5p.png"
+  },
+  {
+    "id": 39,
+    "university_id": 28,
+    "name": "Samara State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/ORci9iDAMdbPt721qejEprfEeL7VqUF3xKKVP5Ks.jpg",
+    "photo_path": "university_photos/Mk5c2gf1vnDqoUA12PTIXOb2JjMmt12uF68WBGBH.png"
+  },
+  {
+    "id": 40,
+    "university_id": 29,
+    "name": "Sevastopol State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/IKT4grrnchJ2TTOdBfBJykk7w7fGiqPvxEnlMX7G.jpg",
+    "photo_path": "university_photos/QPZb2AnrHCdhBjKfbNgtGjUV3z46CvRIU9GoRMxX.jpg"
+  },
+  {
+    "id": 41,
+    "university_id": 30,
+    "name": "Crimea Federal Univerity",
+    "country": "Russia",
+    "logo_path": "logos/FJkjv1Q1U4OvDVT58SMEpolBcbNqNMF4OV944BUV.jpg",
+    "photo_path": "university_photos/WOstPIKQukCMFwdAHnSJpGesXqfEpfnT65hyinTO.png"
+  },
+  {
+    "id": 42,
+    "university_id": 31,
+    "name": "National Research Nuclear University MEPHI-Moscow",
+    "country": "Russia",
+    "logo_path": "logos/Ev3d1QPaENMHtlSUFz9CCt6zzG7C9Skwl2bWzDso.jpg",
+    "photo_path": "university_photos/zV9D8Twun4Vu3JMjjg8qzfuM8SofWanVpwqXpxAs.png"
+  },
+  {
+    "id": 43,
+    "university_id": 32,
+    "name": "Kazan State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/pWjwDyDktw5usreZ2VZV1r3XuHbJIVEV78ymHpPf.jpg",
+    "photo_path": "university_photos/AyY4lxHQqJoiqlRZ5YAG4BAjfHLfymIR7pGopbSh.jpg"
+  },
+  {
+    "id": 44,
+    "university_id": 33,
+    "name": "Far Eastern Federal University",
+    "country": "Russia",
+    "logo_path": "logos/SulB5sw3w1SvBU6s01VBD6sLtzVwd01Nhz6VUTcr.jpg",
+    "photo_path": "university_photos/6ByiAIO9gLZuhdBIAWpnZpfai66z2BJcY7xR7G1k.jpg"
+  },
+  {
+    "id": 45,
+    "university_id": 34,
+    "name": "Yaroslav-the-Wise Novgorod State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/SaBrBTOPhOLNXh90e96jBKCcEKKShT5agzn7T78l.jpg",
+    "photo_path": "university_photos/Z7Lmv1Y9M9iy6NgmlyOLUCTw7oxmlI3DPT2zw6Z8.jpg"
+  },
+  {
+    "id": 46,
+    "university_id": 47,
+    "name": "Northern State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/J6UddvXwBDN3HsCOz0RDySlpLfrYFeoSFaVqxP17.jpg",
+    "photo_path": "university_photos/qgfCQ7B2eNoUfkeKzsrqMDMPjUwwqer95t2nX0qw.png"
+  },
+  {
+    "id": 48,
+    "university_id": 36,
+    "name": "Omsk State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/Th1RCYaCnGSE5Xu6rK98Sr9cDs2oYNmxvJG6VW9Y.jpg",
+    "photo_path": "university_photos/tEacSEtruuv7ZWN1ioBckMFqEezNCg7VNeAmTs87.jpg"
+  },
+  {
+    "id": 49,
+    "university_id": 37,
+    "name": "Rostov State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/IHSHCoD4ttRoA09zfu4b6mLEe9EalTkKd2cwThd3.jpg",
+    "photo_path": "university_photos/lqs8l7YuaRpA1XfGvlN0NPyCK9SgtBMdZ2GwPITw.jpg"
+  },
+  {
+    "id": 50,
+    "university_id": 38,
+    "name": "Orel State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/ouKLaKoNt5lhcI47yBAXrf9rAdi2FcGupoRxGf1i.jpg",
+    "photo_path": "university_photos/5l4rTUqDKdzRAZoX4RYCEUQXyr2CkvqR5dZ8zobA.png"
+  },
+  {
+    "id": 51,
+    "university_id": 39,
+    "name": "Immanuel Kant Baltic Federal University",
+    "country": "Russia",
+    "logo_path": "logos/clbYaV5zQBEpPHzHvUbhPPWJfcVt7sP1KIBYib0f.jpg",
+    "photo_path": "university_photos/YHecAeQKKz5W78YpvSmaKkxFSGlrmvrktC1dwdzo.jpg"
+  },
+  {
+    "id": 52,
+    "university_id": 40,
+    "name": "Kirov State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/nDGT5pL0Gs3CLEYtlATuLfO7MwdNaavsErbaib2T.jpg",
+    "photo_path": "university_photos/0CnZLimTJOa3bfz9Ck7JuKLwjHfJlw1tYosu607q.jpg"
+  },
+  {
+    "id": 53,
+    "university_id": 41,
+    "name": "Ivanovo State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/QpQNGqxA4rMwdE7YKanShJVv7jVBGDDE6kAjM8M8.jpg",
+    "photo_path": "university_photos/5fVu7C0XW10u5gXNYC80skv4V1QVVdMpJDCTlAA5.png"
+  },
+  {
+    "id": 54,
+    "university_id": 42,
+    "name": "Kemerovo State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/wPHZ5rbgILdABFFbhlgXnwXufZ81bPbyCwxoMYB2.jpg",
+    "photo_path": "university_photos/SCQ7KESHSFP5sgw89UE8k3lSnRL5LnYuBt24wKC3.png"
+  },
+  {
+    "id": 55,
+    "university_id": 43,
+    "name": "Astrakhan State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/YUnwQuKLk2UkS8SHJIOUUXKQBluDs6EHeuggfHaG.jpg",
+    "photo_path": "university_photos/0wyCjvRzgOJwozsOucgnxkoQ2sDUG3vRbviFY5FM.png"
+  },
+  {
+    "id": 56,
+    "university_id": 44,
+    "name": "Amur State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/b2vraZZEtHgQE5F1Jk4UhM100BhDb69KKQGmeS4f.jpg",
+    "photo_path": "university_photos/NZ1xxMs7oQRgWZYCz4iOu2TEgoMBCqt9CJducBlc.png"
+  },
+  {
+    "id": 57,
+    "university_id": 45,
+    "name": "Chita State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/bFOH5FyrQapp1I21RYX3HIHrjPMJzTZzEF4zrZDU.jpg",
+    "photo_path": "university_photos/aFtlGvs3pXS0gZPJgXr327bgZKHYs6CPha3e6YMj.jpg"
+  },
+  {
+    "id": 58,
+    "university_id": 46,
+    "name": "Siberian State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/G6mNlG16H1J55m97iqlKWVLh83ieo9EG1zqkWi0p.jpg",
+    "photo_path": "university_photos/VNJB1QbcHAMkntHe4V4WKrSwTa81riplFXogs1xa.png"
+  },
+  {
+    "id": 60,
+    "university_id": 48,
+    "name": "Pskov State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/tyOzg1Oo5QPavGEkWajemEQhjTpRhEnxMKUhaoqp.jpg",
+    "photo_path": "university_photos/aojFf3IxxVVxq6iqe4MvNw851ILbN18PX9eWV9Nc.png"
+  },
+  {
+    "id": 61,
+    "university_id": 49,
+    "name": "Perm State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/7Pr7GhBsTRyh5wrTuBwqKpIPraYoTqYH6TwyCoKA.png",
+    "photo_path": "university_photos/m0PY5amwVK7pijjd7MIZyAocMZO98FRHYDpKCd8F.jpg"
+  },
+  {
+    "id": 62,
+    "university_id": 50,
+    "name": "Mari State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/aNhwjByB4ybDqFcvVoOnxWrU6SFN3TTJDkQSGha5.jpg",
+    "photo_path": "university_photos/AIEvraLAdEskkVpVfGBG8jOXpKcEpcqpM9QRqszK.jpg"
+  },
+  {
+    "id": 64,
+    "university_id": 54,
+    "name": "Mkhitar Gosh Armenian-Russian International University",
+    "country": "Russia",
+    "logo_path": "logos/FlfIYROP3NmVsVO7JhknHS4r73XC7RbZ48rDz3pW.png",
+    "photo_path": "university_photos/NVcLATfsTXossp8Jmhj3b0Ovl5lQzHMaH8OJoftt.png"
+  },
+  {
+    "id": 79,
+    "university_id": 78,
+    "name": "Tambov State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/LrnqVYuXsqZb7R9RDRJsAoLRKfhesAXrQ9sxUodn.jpg",
+    "photo_path": "university_photos/tfuGOlmoxOPQrZb5t2uxS2Eg8xEcgGh5lycbs7Kc.jpg"
+  },
+  {
+    "id": 88,
+    "university_id": 51,
+    "name": "Orenburg State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/xVNWErMEw0QgV5V1cRUZhODHGnmUqQKWGtx1TLIE.jpg",
+    "photo_path": "university_photos/0qaY7Gc6Pp8uMdxgpMKENXJvcbI3pQLMuCst4ubY.png"
+  },
+  {
+    "id": 89,
+    "university_id": 35,
+    "name": "North Caucasian State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/nKVfsnU6wX1p01hWT47lFnb4j65lQhfKA1sJIGFH.jpg",
+    "photo_path": "university_photos/3oVNc9Y1Pzl0okZfPKHJ52r0GEFQQ9a2AtqrArl1.png"
+  },
+  {
+    "id": 90,
+    "university_id": 52,
+    "name": "Kuban State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/ZgWraJ4JqoHAKdSkaQGO513cKSHDqMAgHIndoiEM.jpg",
+    "photo_path": "university_photos/6qtIrY5A9jNBOdYqRlaaJRN5EpRd3UVKAX0Iyvuz.jpg"
+  },
+  {
+    "id": 91,
+    "university_id": 79,
+    "name": "National Research Nuclear University MEPhI, Obninsk Russia",
+    "country": "Russia",
+    "logo_path": "logos/EzZ1TMwbSZPKueUUiPzjglTSFbG3jNlSwFYn3yyv.jpg",
+    "photo_path": "university_photos/MCLTFrGCRUPSZDC1gkLTPSu4FEwGkVOsMWCYrecD.png"
+  },
+  {
+    "id": 100,
+    "university_id": 82,
+    "name": "Tula State University",
+    "country": "Russia",
+    "logo_path": "logos/eIsI8dIszrtkK3uuDwhrKQiut9zWXsaGYWGoOJOp.jpg",
+    "photo_path": "university_photos/JG5Zf7jlzqNJmf1XEspQ8hzn6Lnfz9u91UdEu2sv.png"
+  },
+  {
+    "id": 101,
+    "university_id": 84,
+    "name": "Krasnoyarsk State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/IwmGi8pWDXiEICO4IAJYanAK7SVQBGpELHdjHpqW.png",
+    "photo_path": "university_photos/LqIb3WeXqjNk3vr7AUpWzRm7slQ0ZrlWEzJXqQMz.png"
+  },
+  {
+    "id": 195,
+    "university_id": 202,
+    "name": "Dagestan State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/7y8dYbr0RFms6wbe22NPQYHGqcKfyWtdVMIQj59b.png",
+    "photo_path": "university_photos/ihawLPj9pFpgwxaJBe1PvXOBXjRzU7aBbo1iAWCS.png"
+  },
+  {
+    "id": 220,
+    "university_id": 207,
+    "name": "Pitirim Sorokin Syktyvkar State University",
+    "country": "Russia",
+    "logo_path": "logos/VmuDKNmldx1AjSFHEPYmB7KVo505P23oY3Hdynmj.png",
+    "photo_path": "university_photos/SUfaWA7xvudelgBWQZsywqQROINiIFQKibQjJa5K.png"
+  },
+  {
+    "id": 222,
+    "university_id": 86,
+    "name": "Yaroslavl State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/Yhm8etInIFUpEkvGJ64hZ2XHjXhhJb1HDsjGNCNE.jpg",
+    "photo_path": "university_photos/6gy37sGJBfyDQDqNbSbJCVq6QkA0sZL794XgL3i0.jpg"
+  },
+  {
+    "id": 223,
+    "university_id": 209,
+    "name": "Kemerovo State University",
+    "country": "Russia",
+    "logo_path": "logos/B2uZqVYQ2tG3UoxCYxbfAVJR1OdsL2ViVJKGDzkY.png",
+    "photo_path": "university_photos/QIrxtrh3S7a0KOq4CkyRoOM3xj4h3kAyvB5wnVIP.png"
+  },
+  {
+    "id": 224,
+    "university_id": 85,
+    "name": "Kazan Federal University",
+    "country": "Russia",
+    "logo_path": "logos/sCgjMYtfT2zNczNGwBAI4u6UEErAiLnw1jT5sztG.jpg",
+    "photo_path": "university_photos/eoPqmgONTFVXTRw6Vp9T4CLwlF3vOf3UG1iVO5MD.jpg"
+  },
+  {
+    "id": 225,
+    "university_id": 210,
+    "name": "Altai State Medical University",
+    "country": "Russia",
+    "logo_path": "logos/Eu914ss8euSjlJPCaQIWzUCeYJRr02IzSAA9zcMR.jpg",
+    "photo_path": "university_photos/eDKBgjCiSBWBgLKn0trdaz2XlTCACoPjkthiRzRa.png"
+  },
+  {
+    "id": 244,
+    "university_id": 227,
+    "name": "Kalmyk State University",
+    "country": "Russia",
+    "logo_path": "logos/C5VAffmM8WUrCkM67KhvWFcAnsZsMo9eyMVnj5TA.png",
+    "photo_path": "university_photos/Uip0IgudQAcH6TzewxlrYAg5kZAylxs1mI7DZocG.jpg"
+  },
+  {
+    "id": 246,
+    "university_id": 229,
+    "name": "Synergy University \u2013 Moscow",
+    "country": "Russia",
+    "logo_path": "logos/bSz0Q4DE2l6Pj65K2y5CuoE9QMCvQqCso9tYnGx9.png",
+    "photo_path": "university_photos/46r83S601OavstJIcw12qlIrGKyHTcu0MebVOhzw.jpg"
+  },
+  {
+    "id": 247,
+    "university_id": 230,
+    "name": "South Ural State Medical University (SUSMU)",
+    "country": "Russia",
+    "logo_path": "logos/NRfI1IxgQmAfiD8MEHCayrF959B4BS6Ueux1IVBW.png",
+    "photo_path": "university_photos/2iwGHtxhJ6xuX6L5fz3NYzY6fxLoJ0pCQL6nbK6A.jpg"
+  },
+  {
+    "id": 68,
+    "university_id": 56,
+    "name": "Bukhara State Medical Institute(BSMI)",
+    "country": "Uzbekistan",
+    "logo_path": "logos/7RXVnEXT8vOVNWIqsbAuBwK1s7Q1fN4Q9eEEmzmq.jpg",
+    "photo_path": "university_photos/AlsqJoLReAtHqAhogZezf4hFXSIPd9yEW4ISJHkh.jpg"
+  },
+  {
+    "id": 69,
+    "university_id": 57,
+    "name": "Samarkand State Medical University",
+    "country": "Uzbekistan",
+    "logo_path": "logos/VjgA7T8gQWVd844Vayy8B2CZvs4oZzX8fj8u7xUU.jpg",
+    "photo_path": "university_photos/t4qJKJaDN165Bqx6LK5UTrpStrCCGMgmZAFua1Qm.jpg"
+  },
+  {
+    "id": 70,
+    "university_id": 58,
+    "name": "Fergana Medical Institute of Public Health(FMIPH)",
+    "country": "Uzbekistan",
+    "logo_path": "logos/QhEEh1KriWKK7z4kuS3bkWO0BEun6WzVXWcDujEi.jpg",
+    "photo_path": "university_photos/Ewq53KTqqXZh30hhJgjgmXkOz2M4OXefqRqy6liG.jpg"
+  },
+  {
+    "id": 71,
+    "university_id": 59,
+    "name": "Tashkent State Medical University(TSMU)",
+    "country": "Uzbekistan",
+    "logo_path": "logos/fFxceQNILjHDk4uRT1J8Eqwbl56NE909MYUxivvg.jpg",
+    "photo_path": "university_photos/mgXSvWDYjpVlBD9kLW9x9PBTn9mGouW1sULwFipB.jpg"
+  },
+  {
+    "id": 72,
+    "university_id": 62,
+    "name": "Andijan State Medical University",
+    "country": "Uzbekistan",
+    "logo_path": "logos/JZakkxPIiuJJYaQE4Cqnvhoa3tXi7ZAuI2BrJKKV.jpg",
+    "photo_path": "university_photos/RnD72w7tkMO382MVhB8Dg8QdqbKAdywEz6OEKt3T.png"
+  },
+  {
+    "id": 228,
+    "university_id": 214,
+    "name": "Navoi State University",
+    "country": "Uzbekistan",
+    "logo_path": "logos/E1yp2UNkQi5G7Sb5O1YFUG9GL1lmZLma9axSfVDd.jpg",
+    "photo_path": "university_photos/ImgGjQSy4RLV5eybBJOVrHgRKB3kO1KdbBFiDccS.jpg"
+  },
+  {
+    "id": 230,
+    "university_id": 216,
+    "name": "Bukhara Innovative Education and Medical University",
+    "country": "Uzbekistan",
+    "logo_path": "logos/Eb2DIO2ZKCd24mbPsMjWUFDYxbZ19XXwQw35Cmdf.png",
+    "photo_path": "university_photos/5TQrH7wADW5cxPRAdaJlmN6Ge3uP6vDB2ypeBm70.jpg"
+  },
+  {
+    "id": 231,
+    "university_id": 217,
+    "name": "Gulistan State University",
+    "country": "Uzbekistan",
+    "logo_path": "logos/cSDflzybXB8rpWpzTNi18hDl4mO8XbS8Q28QOzmK.jpg",
+    "photo_path": "university_photos/KS6gDkyqEnMFQNIjocU5fT6mon4f8KmnTXGWVAEx.jpg"
+  },
+  {
+    "id": 232,
+    "university_id": 218,
+    "name": "Namangan State University",
+    "country": "Uzbekistan",
+    "logo_path": "logos/Nz5CSdfkZmbj57Mb2Gs57dqTXJmBpZSQIjhuHwNJ.jpg",
+    "photo_path": "university_photos/69JLMwyFyHzfP5ZT960pFpxRr34gKBaiLgqJGi3J.jpg"
+  },
+  {
+    "id": 261,
+    "university_id": 245,
+    "name": "ZARMED UNIVERSITY SAMARKAND UZBEKISTAN",
+    "country": "Uzbekistan",
+    "logo_path": "logos/vYxVs5A1FNU1uUs2jpN1NTe2FydVqjJyU5wG6BRL.jpg",
+    "photo_path": "university_photos/SQD1q9cIaRqRJ6qiURUII9zYpNAeLoGnIc9eDhUM.jpg"
+  },
+  {
+    "id": 262,
+    "university_id": 246,
+    "name": "Asia International University",
+    "country": "Uzbekistan",
+    "logo_path": "logos/EqyZ2o7Oqq9W7TtpVg6IpOMAdWGDE7Mrg32Mst98.jpg",
+    "photo_path": "university_photos/w1VOHibgZwmEUmjhHhwZnvJP4YD52JgNBt0c7XC0.jpg"
+  },
+  {
+    "id": 73,
+    "university_id": 64,
+    "name": "University Of Georgia, Tbilisi Georgia",
+    "country": "Georgia",
+    "logo_path": "logos/gzPLZrGHTgazxvHLBDC2hzZFZZL2aU1v9MaMXg38.jpg",
+    "photo_path": "university_photos/jMZQwSw7f0fNwAFAWkED8lGJbo67NRbmRWyMm6h3.jpg"
+  },
+  {
+    "id": 74,
+    "university_id": 66,
+    "name": "Caucasus International University, Tbilisi Georgia",
+    "country": "Georgia",
+    "logo_path": "logos/Jmz6bujfxcMRcxNCANbR8EDIGhrg5PB1ObBZCAI5.png",
+    "photo_path": "university_photos/EIk2rnHWGWStWGuaCISxbmXUsfY2nZTcIx7Ut4hO.jpg"
+  },
+  {
+    "id": 75,
+    "university_id": 67,
+    "name": "Georgian National University SEU",
+    "country": "Georgia",
+    "logo_path": "logos/xfoWGvtk48smnMClAUvz7QnCUpDSTedC0OswpMoU.jpg",
+    "photo_path": "university_photos/P9MRwTuFzPoaBt2O5pdDdAPlMG5kGE5nTWr1uVAp.png"
+  },
+  {
+    "id": 76,
+    "university_id": 69,
+    "name": "Grigol Robakidze University(GRUNI)",
+    "country": "Georgia",
+    "logo_path": "logos/dpItiVlW7VIeC9r4vUseSvOdEVo80KnSnhU8ZPg1.jpg",
+    "photo_path": "university_photos/1s7ripH9OhbGQ5rSGSCrJB6jwxOsNBDsyzNGa33k.jpg"
+  },
+  {
+    "id": 77,
+    "university_id": 70,
+    "name": "East European University (EEU)",
+    "country": "Georgia",
+    "logo_path": "logos/w2gL2SOfn5qmJtJLGTbmFJZJxUCyy7wHMJzjJIAu.png",
+    "photo_path": "university_photos/v5IHEHIQJgHETZoZ2HxtIPDItCx7ClulytgUonPw.png"
+  },
+  {
+    "id": 78,
+    "university_id": 71,
+    "name": "Batumi Shota Rustaveli State University, Georgia",
+    "country": "Georgia",
+    "logo_path": "logos/xyBmVcsAnkWlmNTqzm9NbSC1pj3HgkLNXcTzGagd.jpg",
+    "photo_path": "university_photos/MBEzYq6I5nzShT7toPfPHCWNfocDRAr1PIR5alxs.png"
+  },
+  {
+    "id": 94,
+    "university_id": 72,
+    "name": "International Black Sea University (IBSU)",
+    "country": "Georgia",
+    "logo_path": "logos/x8G8rThFQ1RNryZY2MR94mhkl9eqCtqS24Pu0QkO.jpg",
+    "photo_path": "university_photos/ROomF3YdGgbZHfV2vg95jK7B4qiZcZNfnchC29Br.png"
+  },
+  {
+    "id": 95,
+    "university_id": 74,
+    "name": "East West University (EWU)",
+    "country": "Georgia",
+    "logo_path": "logos/fLEFzNA9KjJbz5ddcBffwQhbYnADWx1ymd8FUbGq.jpg",
+    "photo_path": "university_photos/WHrVFJ6KwRCbBUdOtlvn8YS4H9NRoRh1BdzFi83w.png"
+  },
+  {
+    "id": 96,
+    "university_id": 73,
+    "name": "BAU International University Batumi",
+    "country": "Georgia",
+    "logo_path": "logos/Qd8I5Kd1ZpEwuRR3btEwjqvVgNBRq843QyL7mnSC.png",
+    "photo_path": "university_photos/SNecOKdHXwG1TNto0uhJ0rf0LAsk2Bd1kJBpbbcg.jpg"
+  },
+  {
+    "id": 102,
+    "university_id": 88,
+    "name": "Ivane Javakhishvili Tbilisi State University (TSU)",
+    "country": "Georgia",
+    "logo_path": "logos/siAUMH18opdj0u06AdNqRBJ62Ye4lhinyYDkh4mB.png",
+    "photo_path": "university_photos/pDeU05lgIC0v5Ztu6uBXZSTUo338ZAJbuIBopn3m.jpg"
+  },
+  {
+    "id": 103,
+    "university_id": 87,
+    "name": "Ilia State University",
+    "country": "Georgia",
+    "logo_path": "logos/6pXGfJoGlbVcFDKHDY6tizPaiJiqHexvcoUQRBxt.png",
+    "photo_path": "university_photos/ll48GcNW6TgzJQ0ddMRi8VcLXUSzYdSeJBl9IjfD.png"
+  },
+  {
+    "id": 104,
+    "university_id": 89,
+    "name": "New Vision University",
+    "country": "Georgia",
+    "logo_path": "logos/tYCVGisOksytsLtJ2AmZfrUTcsMCupZpcF6m3AXz.jpg",
+    "photo_path": "university_photos/kJ4vG4e4dPoqHQlnlFabj3oePfMbIO5fc0vLM1Ji.png"
+  },
+  {
+    "id": 105,
+    "university_id": 90,
+    "name": "David Tvildiani Medical University (DTMU)",
+    "country": "Georgia",
+    "logo_path": "logos/XoGv1yqUdej13tytcJ3cgGj2c1nuLFkPaLV2kG4s.jpg",
+    "photo_path": "university_photos/Cd8cDWNJYYgo5KUwc8uSpJKJcIWsraGhb3OtjgSP.png"
+  },
+  {
+    "id": 106,
+    "university_id": 91,
+    "name": "Akaki Tsereteli State University (ATSU)",
+    "country": "Georgia",
+    "logo_path": "logos/NgTd5OPEeAwznSwHrf0exJYVLM9RgHVhnlGccGd8.png",
+    "photo_path": "university_photos/zWxS2XsSkA3i2hj18aLVT1D6SvfACvBJHms3Jb6r.jpg"
+  },
+  {
+    "id": 107,
+    "university_id": 68,
+    "name": "Ken Walker International University (KWIU)",
+    "country": "Georgia",
+    "logo_path": "logos/byRPpFyz2ymrIyjJCSSNETPuoxRbTtMjd050fN0f.jpg",
+    "photo_path": "university_photos/zJW9pEuPWWoQUnGgjAMX2OmMUf2DPdDXGqIquDXd.jpg"
+  },
+  {
+    "id": 108,
+    "university_id": 92,
+    "name": "Geomedi Medical University",
+    "country": "Georgia",
+    "logo_path": "logos/oDvb4sCKN6ra1u2Vc6jLqTk0AtRqyPOukQrdj9ZJ.png",
+    "photo_path": "university_photos/JEAkK8dwYyrFofvZ3zkCqYS55xQi6DcEl8M45KLI.png"
+  },
+  {
+    "id": 109,
+    "university_id": 93,
+    "name": "Avicenna Batumi Medical University (ABMU)",
+    "country": "Georgia",
+    "logo_path": "logos/EtRB5OcsKYcG3k9ey2w1PXTLO6YJRJyEl0uWDyDC.jpg",
+    "photo_path": "university_photos/4YAB9S3yMXv74YsLnkZVS8hIKgDCcEhx21gJ3Vwi.jpg"
+  },
+  {
+    "id": 221,
+    "university_id": 208,
+    "name": "Tbilisi State Medical University(TSMU)",
+    "country": "Georgia",
+    "logo_path": "logos/rfnRUZRIZxhXhWaeD2F6faiLMfQQ9nw4Yv5jZZu1.jpg",
+    "photo_path": "university_photos/6HKo3RR3Sd9oSmq3lBF3Lar0MKFtFmm8aMFLXnVa.jpg"
+  },
+  {
+    "id": 233,
+    "university_id": 219,
+    "name": "Georgian American University",
+    "country": "Georgia",
+    "logo_path": "logos/JbPHMmU94uHVb2xws1jqtWVIPUuUd9zIlSizpPRh.png",
+    "photo_path": "university_photos/FNOW3xEg5Yh9zA3vcWUlIc74POX9ke7GRIeYc8bm.jpg"
+  },
+  {
+    "id": 235,
+    "university_id": 221,
+    "name": "Alte University",
+    "country": "Georgia",
+    "logo_path": "logos/rotUmC5DvUEpclcDmGixzPjsI2WwFCUY9b8I3MTF.png",
+    "photo_path": "university_photos/zhUTSl07fbB4sVC2sZ8NR4ElNXfGDw1OPb5Eo574.png"
+  },
+  {
+    "id": 252,
+    "university_id": 236,
+    "name": "Central University of Europe (CUE) \u2013 Kutaisi Campus, Georgia",
+    "country": "Georgia",
+    "logo_path": "logos/SvgPijJDAPm4UptvsmTVx6pVdbAuAx8xXrKe4w45.jpg",
+    "photo_path": "university_photos/9bbUySdfP1SiyDqNoGfk88JFEGol99nb0R5hZOix.png"
+  },
+  {
+    "id": 253,
+    "university_id": 237,
+    "name": "Central University of Europe (CUE) \u2013 Tbilisi Campus, Georgia",
+    "country": "Georgia",
+    "logo_path": "logos/FHqEBgU9uwv2orClStftmwKKZh4m4HYEHfGhqkiN.jpg",
+    "photo_path": "university_photos/vHYZPC8r7hDnUB7F4MgqYAa40gmBamvT0Hemh7YN.png"
+  },
+  {
+    "id": 113,
+    "university_id": 97,
+    "name": "West Kazakhstan State Medical University",
+    "country": "Kazakhstan",
+    "logo_path": "logos/QkbqN2CQhoECv3731zQ9drLwqfwKrqz3zaLokNA3.jpg",
+    "photo_path": "university_photos/8fFxZRpl5qayxf9JSvSwf8wewG6PiE1tLxdlDYS0.png"
+  },
+  {
+    "id": 114,
+    "university_id": 98,
+    "name": "South Kazakhstan Medical Academy",
+    "country": "Kazakhstan",
+    "logo_path": "logos/y0C4CthQIAgJTciQnoA600pOtj5ynbvSZeCphGgp.jpg",
+    "photo_path": "university_photos/BUJx6U7AlsIJi1cncWJgZncpjBVtJJ87g73SVNNr.png"
+  },
+  {
+    "id": 115,
+    "university_id": 99,
+    "name": "Kazakh National Medical University",
+    "country": "Kazakhstan",
+    "logo_path": "logos/QJ02KvfpxREpuuhTfLt2S2V95u573gzZeeXtrXai.jpg",
+    "photo_path": "university_photos/h84nYISaqPc9XPFRtvoEF0LTRRzD5u96cZQieTb1.jpg"
+  },
+  {
+    "id": 116,
+    "university_id": 100,
+    "name": "Al-Farabi Kazakh National University",
+    "country": "Kazakhstan",
+    "logo_path": "logos/yW3HVgpSwIPuVVMA46TdxH5jiGMq7osIWpEK27EO.jpg",
+    "photo_path": "university_photos/JqBLyM1nOyLVml9DAeV3xMeCUskiUEcWHhl4rdYB.jpg"
+  },
+  {
+    "id": 117,
+    "university_id": 101,
+    "name": "Semey State Medical University",
+    "country": "Kazakhstan",
+    "logo_path": "logos/medTCmIHpxvAJsj0GjsLMYj8FRpSQTVQGkVPo7Hu.png",
+    "photo_path": "university_photos/o8BHX1SAPhJGHg5z5rUwTjUTddaZ92Cpoi5N7K6A.png"
+  },
+  {
+    "id": 118,
+    "university_id": 102,
+    "name": "Astana Medical University",
+    "country": "Kazakhstan",
+    "logo_path": "logos/y6Ujx130qac2x1r1Gv5Qe6fYx77ybqTJfzMihX55.jpg",
+    "photo_path": "university_photos/jkAU1e5HMAiMZPKvindfzVP6Lp0Xzh103GVZMMJ1.png"
+  },
+  {
+    "id": 119,
+    "university_id": 103,
+    "name": "Karaganda State Medical University",
+    "country": "Kazakhstan",
+    "logo_path": "logos/Kuas1yvudccSyimJGgLigcyteJ6vyuTyM6uuQvfn.jpg",
+    "photo_path": "university_photos/hek2QE6shOZHScnVHBYNUEp165esZvnuIHJUwFbz.png"
+  },
+  {
+    "id": 120,
+    "university_id": 104,
+    "name": "Caspian International School of Medicine",
+    "country": "Kazakhstan",
+    "logo_path": "logos/wyKLQg6oSsCmhs7suZ62uZBZdz5PPFdIq4DpQmDV.png",
+    "photo_path": "university_photos/lNoSNM46MI3RzEOQh3lgGj3Hv6gGQnO6cOowKXpA.jpg"
+  },
+  {
+    "id": 121,
+    "university_id": 105,
+    "name": "Kokshetau State Medical University",
+    "country": "Kazakhstan",
+    "logo_path": "logos/2lkmBeUIGCrup9sfhh24uogqR2DCMTr21WbD9Yyx.png",
+    "photo_path": "university_photos/RBRXs7zxSeZBB8u4AXSlpznTzXgg9peVQ20p0RSl.jpg"
+  },
+  {
+    "id": 92,
+    "university_id": 80,
+    "name": "Osh State Medical University",
+    "country": "Kyrgyzstan",
+    "logo_path": "logos/XLaBe7kgZ2EsktrrlXaRORxvbQXDg1aqYAda8Go7.jpg",
+    "photo_path": "university_photos/k33z1ZptqX9z44boriDCMIHFAf1fKTOtkJgiR4Rq.png"
+  },
+  {
+    "id": 93,
+    "university_id": 81,
+    "name": "Osh International Medical University",
+    "country": "Kyrgyzstan",
+    "logo_path": "logos/CXcZwLEfHG6LjuolPsRxPYJ4SDE9S8Ml1n3EH8Sp.jpg",
+    "photo_path": "university_photos/DKVJrJHNyaH7LRRceePWExYjvry944nsO0y21w07.png"
+  },
+  {
+    "id": 110,
+    "university_id": 94,
+    "name": "Jalal-Abad State University",
+    "country": "Kyrgyzstan",
+    "logo_path": "logos/j95kOicoPoSV3ySTKqzkOMXPQ8PvdvECpTPrjuSP.jpg",
+    "photo_path": "university_photos/23w99KB4Q8Mhh4ruL4R5mnyS9hSsNjUnXWtC7WOx.jpg"
+  },
+  {
+    "id": 112,
+    "university_id": 96,
+    "name": "Asian Medical Institute (ASMI)",
+    "country": "Kyrgyzstan",
+    "logo_path": "logos/kBcnjEszZWDUBDzrL73RALx2TUz8vP39mRykekld.jpg",
+    "photo_path": "university_photos/zkhPicZqVNfLNOEKnjmHdg0wmjiX4o2TjJXCgi2s.png"
+  },
+  {
+    "id": 196,
+    "university_id": 203,
+    "name": "IUK-ISM \u2013 International School of Medicine, International University of Kyrgyzstan (IUK)",
+    "country": "Kyrgyzstan",
+    "logo_path": "logos/rFFRcvgJ416zXPOKNuquaCMSJQ826JBNe3d8bCu4.png",
+    "photo_path": "university_photos/RbKt5vUg0dohOB5FDPi3QJOvHf7Fxs05qTVrIaXE.jpg"
+  },
+  {
+    "id": 229,
+    "university_id": 215,
+    "name": "Jalal-Abad International University Faculity Of Medical",
+    "country": "Kyrgyzstan",
+    "logo_path": "logos/4gKY0o1V9EkFJinq4m1BE1IxMO8SFkcYtceiATsB.png",
+    "photo_path": "university_photos/0BNqX3hksGofkXtpT6ANxDAafntCFxlsW8mPm1h2.jpg"
+  },
+  {
+    "id": 63,
+    "university_id": 53,
+    "name": "Progress Medical University",
+    "country": "Armenia",
+    "logo_path": "logos/IzowDHqVhn7lT5kBhFrxx8Mq4zilnoFTgUo67OGR.jpg",
+    "photo_path": "university_photos/gwajYfGh9rfd02s7eREhlJwirnaJ1ZNFzRmYgeyu.jpg"
+  },
+  {
+    "id": 191,
+    "university_id": 169,
+    "name": "Devdaha Medical College & Research Institute",
+    "country": "Nepal",
+    "logo_path": "logos/ZjBJJlTvAGhbH5jcFeGfestWk6RfZf74eqCVrVKT.jpg",
+    "photo_path": "university_photos/Xd6EyalUWJetQUbESlevK0psarltaLGTaWR1mjuB.png"
+  },
+  {
+    "id": 192,
+    "university_id": 176,
+    "name": "Janaki Medical College & Teaching Hospital (JMC)",
+    "country": "Nepal",
+    "logo_path": "logos/GlFkqDyPYoeQIBx8qY9h7Yud1R5iAD8vDTy3WSO0.jpg",
+    "photo_path": "university_photos/TKZ3iW8WFEEYqhJLK8SguLkWQcZYPkR9CVOi2oQb.jpg"
+  },
+  {
+    "id": 193,
+    "university_id": 201,
+    "name": "National Medical College",
+    "country": "Nepal",
+    "logo_path": "logos/VbsugoT7SThM0QgbJksuRJWfaP67yVTMr3WLIaGX.png",
+    "photo_path": "university_photos/EDvXFezoAVZyomDFkOqKxVtzhryREe5TLs67mUKq.png"
+  },
+  {
+    "id": 194,
+    "university_id": 178,
+    "name": "Universal College of Medical Sciences & Teaching Hospital",
+    "country": "Nepal",
+    "logo_path": "logos/OqDCxAi0pbhDmxsrHaUZ5FgLAUaPsc9o75xBgm1l.jpg",
+    "photo_path": "university_photos/3xZ1NCz5SKNILal1CM6g0QSyTghgwpymWUJ2Y7mG.jpg"
+  },
+  {
+    "id": 197,
+    "university_id": 179,
+    "name": "College of Medical Sciences & Teaching Hospital",
+    "country": "Nepal",
+    "logo_path": "logos/AexN1aZKe19V2uAbNaJstJUc8nnvpdmAee8yn3oe.png",
+    "photo_path": "university_photos/WDVvdGikxwBSEtMmROy8o1APAcDw2J5iwg4kc4x5.png"
+  },
+  {
+    "id": 198,
+    "university_id": 180,
+    "name": "Karnali Academy of Health Sciences",
+    "country": "Nepal",
+    "logo_path": "logos/cI0i1sVtgqvtpQTanYJ2DnRU81M6GU3CX2er6mfL.png",
+    "photo_path": "university_photos/douxoyMAVKylnNLVvtUsvyW6XXc4LuV2Opo3qezI.png"
+  },
+  {
+    "id": 199,
+    "university_id": 181,
+    "name": "Maharajgunj Medical Campus-IOM",
+    "country": "Nepal",
+    "logo_path": "logos/gWq3RP16Gzk1Lgc45rR7AIcr7nkQ5NMccPTl3Wf0.jpg",
+    "photo_path": "university_photos/31ZYMc5d77A6g0EuX6yJUjy1ahq6xCljPicL62Op.jpg"
+  },
+  {
+    "id": 200,
+    "university_id": 182,
+    "name": "B.P. Koirala Institute of Health Sciences (BPKIHS)",
+    "country": "Nepal",
+    "logo_path": "logos/9e95lSNs4y4YSOZqIs656P9SrHwDgepu0JtRWIZn.png",
+    "photo_path": "university_photos/2W0gSyrLPTRbdNSBBVLVBug8o5lDf8ewuVcfta7S.png"
+  },
+  {
+    "id": 201,
+    "university_id": 183,
+    "name": "KIST Medical College & Teaching Hospital (KIST MC)",
+    "country": "Nepal",
+    "logo_path": "logos/q7AFmb3q3dZn008AlBE1LfGeYioMq8COpe6fNCT1.jpg",
+    "photo_path": "university_photos/GOTOh3kOHkHu0XgK5OcVKsvLcaPQYQkv5MYu0r5Q.jpg"
+  },
+  {
+    "id": 202,
+    "university_id": 184,
+    "name": "Patan Academy of Health Sciences",
+    "country": "Nepal",
+    "logo_path": "logos/jeYetiv6jVfVLUofGT3QP5IdwGam7fHapk9DCbaw.png",
+    "photo_path": "university_photos/2ieNDlzvkht1vNj8stR7RqUoWYEJagExVBvVd5mU.jpg"
+  },
+  {
+    "id": 203,
+    "university_id": 185,
+    "name": "Gandaki Medical College",
+    "country": "Nepal",
+    "logo_path": "logos/4m62YxiEEKmZqqT4T5rDwTBQrvWxJvwOupCAXuoM.jpg",
+    "photo_path": "university_photos/z7pvHdFSISlShAVSPOcEbAXxCf6cKmgCem6ZlH3x.jpg"
+  },
+  {
+    "id": 204,
+    "university_id": 186,
+    "name": "Nepal Medical College",
+    "country": "Nepal",
+    "logo_path": "logos/uV1LjLCamS4mbVNsW37AtvrTprLd48r0bMkNRmcs.jpg",
+    "photo_path": "university_photos/F73K6lPUCLbXQXKTbFNJZttymPMqorXXBzDR7mmT.jpg"
+  },
+  {
+    "id": 205,
+    "university_id": 187,
+    "name": "Lumbini Medical College & Teaching Hospital",
+    "country": "Nepal",
+    "logo_path": "logos/CKdUauZiL2nNotihMxiUfYXIff6SNGTqShGJYVNm.jpg",
+    "photo_path": "university_photos/3GaJzykILZdQhQl3VmjaNiVyjT3YPUMIieHQx18g.jpg"
+  },
+  {
+    "id": 206,
+    "university_id": 188,
+    "name": "Chitwan Medical College",
+    "country": "Nepal",
+    "logo_path": "logos/cTgDdB2RepDyyOrBOH0sVAtvF5UKkqu5UDR3TsaI.png",
+    "photo_path": "university_photos/IskhwYK7nA7DgJhpr3uXwAtUI0rgUSdo5RykddAJ.jpg"
+  },
+  {
+    "id": 207,
+    "university_id": 190,
+    "name": "Kathmandu Medical College",
+    "country": "Nepal",
+    "logo_path": "logos/XFBJMVCm6jqqRSvkXAZMC35DaITQvX10M9lKhHWI.png",
+    "photo_path": "university_photos/cu5a1lzMV7Gs8jVJuQ0QiSkLXGxNx3j5KygfsToe.png"
+  },
+  {
+    "id": 208,
+    "university_id": 191,
+    "name": "Manipal College of Medical Sciences",
+    "country": "Nepal",
+    "logo_path": "logos/rCYw1Jdq8XE6wsVphxQy7YLzTVV4P8YEWcgzQLl6.jpg",
+    "photo_path": "university_photos/q2RW0iICub2Tn4YliC2oGQo1tLPAy6d9X4WDLGnm.jpg"
+  },
+  {
+    "id": 209,
+    "university_id": 192,
+    "name": "Nepalgunj Medical College",
+    "country": "Nepal",
+    "logo_path": "logos/YV6ggiSuHRZUjV0OKbmgg1bVy3oBhAZMEIXyWShK.png",
+    "photo_path": "university_photos/fAwxzfEZKGZUlhJpv6Vc2hUTXC1CI96AsiwgHn0Q.jpg"
+  },
+  {
+    "id": 210,
+    "university_id": 194,
+    "name": "Kathmandu University School of Medical Sciences",
+    "country": "Nepal",
+    "logo_path": "logos/GJaIgyesd0BLFGV463To6ZE5hCojXqc9vnhTJpkC.png",
+    "photo_path": "university_photos/8KssKMfmup16ePUA2qi5jLPZsV1n4q5zZ7VVI3we.png"
+  },
+  {
+    "id": 211,
+    "university_id": 193,
+    "name": "Nepalese Army Institute of Health Sciences(NAIHS)",
+    "country": "Nepal",
+    "logo_path": "logos/g9IQQ8NrGmKb4PFtdeSTM3tLSZzLMEaaVG7uyQzn.jpg",
+    "photo_path": "university_photos/SDBu61ycZypUAzBLPWEtYFVD3Ldzd78avr49pyay.jpg"
+  },
+  {
+    "id": 212,
+    "university_id": 195,
+    "name": "Birat Medical College Teaching Hospital",
+    "country": "Nepal",
+    "logo_path": "logos/t06uZew6HbOVKycbafKESb9nonW0yVUBG80SJc6T.png",
+    "photo_path": "university_photos/AdDKWJlwMrqtU6BTagFkocGbRE8UmoCr0RcP7SU1.png"
+  },
+  {
+    "id": 213,
+    "university_id": 196,
+    "name": "B&C Medical College Teaching Hospital and Research Center",
+    "country": "Nepal",
+    "logo_path": "logos/kMufmK5pkz4kPyiXAWerRed1UuLZV8MA0tG0sEJm.png",
+    "photo_path": "university_photos/iJFznun2PmrgW8kkxdKuCUQL2G1Cng2bsj6egds5.jpg"
+  },
+  {
+    "id": 214,
+    "university_id": 198,
+    "name": "Pokhara Academy of Health Sciences (PoAHS)",
+    "country": "Nepal",
+    "logo_path": "logos/LlD1BPllF8vhUUVNU9WMNytxJJRfefrgTri71UsF.jpg",
+    "photo_path": "university_photos/Qf9txR95IrbhupAOGV33YlIhauRKDXAOsMF6KFCZ.jpg"
+  },
+  {
+    "id": 215,
+    "university_id": 199,
+    "name": "Rapti Academy of Health Sciences (RAHS)",
+    "country": "Nepal",
+    "logo_path": "logos/rhOOKEUzZBEoPmYt1bXCExtzzKLFCGcO0xwnkQXG.jpg",
+    "photo_path": "university_photos/qD3qz5gVM8evXr9LDqHCAB0WeC9IoZMoAPttXvoI.jpg"
+  },
+  {
+    "id": 241,
+    "university_id": 189,
+    "name": "Nobel Medical College Teaching Hospital",
+    "country": "Nepal",
+    "logo_path": "logos/I0jozFNRCPWV8Ms3TR7wOvVhykb4ziUneHhYFaw7.png",
+    "photo_path": "university_photos/CL0czBp8a4oRLW9YyqD6ahIJ10WlJQ6djG60O0c4.jpg"
+  },
+  {
+    "id": 150,
+    "university_id": 132,
+    "name": "Tairunnesa Memorial Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/Y45uGtbFswtCnTDmjeK8Tt5iliSnlFaiC8I4wpvJ.png",
+    "photo_path": "university_photos/a8lRcCWrbnG1y7b47t5Ww3tGx255VNvExZFZMiPM.jpg"
+  },
+  {
+    "id": 151,
+    "university_id": 133,
+    "name": "Popular Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/tHdyNQohl12h6VYODqYhhCXR7fEp2p5kaVnAS0G4.jpg",
+    "photo_path": "university_photos/VsahbZWTSoTvAb6ynRMRQTisLe4xHfw4v9t7V9RH.jpg"
+  },
+  {
+    "id": 152,
+    "university_id": 134,
+    "name": "Anwer Khan Modern Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/TrznFX9C13O1xkoZr8Mo59OUpEtk1oRE2XbMdL3K.jpg",
+    "photo_path": "university_photos/GYXwcrO63xNOdV00FJdhWzVcezN4EZzooUc8p00w.jpg"
+  },
+  {
+    "id": 153,
+    "university_id": 135,
+    "name": "Dhaka National Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/dG3aQV5OS63BSWl5vAWhpvomckrZUS5QuiXpbGtc.png",
+    "photo_path": "university_photos/vmgYKKdKnlliZJPZH3sJ0rGer2ske28QJ3xrXF4B.jpg"
+  },
+  {
+    "id": 154,
+    "university_id": 136,
+    "name": "Medical College for Women and Hospital",
+    "country": "Bangladesh",
+    "logo_path": "logos/Tqi9bgHReKop0WOCOKYBdbk7A6gp4QGRLuvL2wHs.jpg",
+    "photo_path": "university_photos/nZnCdtZtURxA8URwOLJfPVzQct2oBjk3hR251L1A.jpg"
+  },
+  {
+    "id": 155,
+    "university_id": 137,
+    "name": "TMSS Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/M1MZo7b8k4Ji9hltvi8VEvNyztmvuEGdS5DMKykP.jpg",
+    "photo_path": "university_photos/a1TfjRiFjxcoEsBB5Bfyk77lAWgTh0nFhrT0c2fm.jpg"
+  },
+  {
+    "id": 156,
+    "university_id": 138,
+    "name": "Shahabuddin Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/eQUlfaBTMj4FcDI8WpEa6d7jz72KWcQiyboPxn2C.jpg",
+    "photo_path": "university_photos/4XdZky2xXjkJXdY2miiCouzTmYr1ReFEuF1hLCUy.jpg"
+  },
+  {
+    "id": 157,
+    "university_id": 139,
+    "name": "Dhaka Central International Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/AYNubOCcJXZKOSHE7bAEowcCFGrWYQStguUjNwIi.jpg",
+    "photo_path": "university_photos/0ho2gaUJMSVhZVvHaLH7tqknQqxNCSQWQzlvvbr9.jpg"
+  },
+  {
+    "id": 158,
+    "university_id": 140,
+    "name": "Ad-din Sakina Women\u2019s Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/BVKgigMdTgJyzElznNbVuLzUSIXzrWJRDthQvJu8.jpg",
+    "photo_path": "university_photos/9KWpV7T4hVgLT9vOeazQO6WU24nqx2mHWLpLsSdj.jpg"
+  },
+  {
+    "id": 159,
+    "university_id": 141,
+    "name": "Ad-din Women\u2019s Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/FKKyL5q9wju3rygDGacmqPS40AXr2ove5olkJXbM.jpg",
+    "photo_path": "university_photos/ybVknwuenDbWgiDS8RtfSccq9QzEJMawDf2aFI2Z.jpg"
+  },
+  {
+    "id": 160,
+    "university_id": 142,
+    "name": "Ad-din Momin Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/sFxUUQig5KMpudbCsLyR6gTEvJHTS7UxhPaUaxXJ.jpg",
+    "photo_path": "university_photos/MTRWfGIJcqpZTRaT4r4dYfdeqVymibN633J86pfp.jpg"
+  },
+  {
+    "id": 161,
+    "university_id": 143,
+    "name": "Ad-din Akij Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/rEKbiQLKPEd4FRzMheVAmpX0XFMH0XkffSkFS6nk.jpg",
+    "photo_path": "university_photos/IKFk8SAmHqCz8UAdPL9xbrHQjtpzRkcKUnRHBlUh.jpg"
+  },
+  {
+    "id": 162,
+    "university_id": 144,
+    "name": "BGC Trust Medical College Hospital",
+    "country": "Bangladesh",
+    "logo_path": "logos/TaYm5OeDgyXTMbZEMglXpRdjTMaF5DWgUGazp79Z.png",
+    "photo_path": "university_photos/T8a24jPAcqX9UDSHQxy51u54B8QSzzCmvOJyFPLK.jpg"
+  },
+  {
+    "id": 163,
+    "university_id": 145,
+    "name": "Prime Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/a7RHMpJJVaTHNE1PBYvPsxeSCtHl6B8hL7YXOxOo.jpg",
+    "photo_path": "university_photos/vtv7WTl8sG3RL8ZGjDVmTbEZwyGEuJHMo0hAgoiS.jpg"
+  },
+  {
+    "id": 164,
+    "university_id": 146,
+    "name": "Mainamoti Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/EZE8QVm4Y8Lxv6OswAOxsId0qKSBqW4tOfYbI3nv.jpg",
+    "photo_path": "university_photos/fzELA14YUAxKytaRDvVTpbUmTQrWuRiERekffOIb.jpg"
+  },
+  {
+    "id": 165,
+    "university_id": 147,
+    "name": "Institute of Applied Health Sciences",
+    "country": "Bangladesh",
+    "logo_path": "logos/Hi4Wn4sVDS4DmqcOJET6gfxGSVVf7UYz6UaagApp.jpg",
+    "photo_path": "university_photos/xDGQ4pXlOK21ifC6XipyRD3cPGC2QfJurODcpoo0.jpg"
+  },
+  {
+    "id": 166,
+    "university_id": 170,
+    "name": "IBN SINA Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/RnDZ08eDdlXNyPFMiClWR4PtlCMVt0irRD9HU6Re.jpg",
+    "photo_path": "university_photos/2Ui2fJjv0B3Y4SJuMYA3A9uxYbZS0Xnp7IZvAxPu.jpg"
+  },
+  {
+    "id": 167,
+    "university_id": 171,
+    "name": "Community Based Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/vipy4TehPrJqUbOBXGJpzZkuDErlOCDmZlFBqZbw.jpg",
+    "photo_path": "university_photos/Wux62ODD3iZ4Nqy8LBjl8YDYwD1iZjD9easyFyH3.jpg"
+  },
+  {
+    "id": 168,
+    "university_id": 172,
+    "name": "Jalalabad Ragib-Rabeya Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/Ls1ve4Cn2D7yjaFX5jXx4XsYHBlrHSzTeTvjVO78.png",
+    "photo_path": "university_photos/dt0Cys3LLxTZ07P9g3sHoYjISKSsOE2co9pdBl3s.jpg"
+  },
+  {
+    "id": 169,
+    "university_id": 173,
+    "name": "International Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/KdVHeCJNwQxqXvHlQBpbaRCYFyqZOZbFSgmzh1v8.png",
+    "photo_path": "university_photos/gZFw10DFLaVOEgmstnCbEPpANiu0ssa9BesVxSt6.png"
+  },
+  {
+    "id": 171,
+    "university_id": 174,
+    "name": "Eastern medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/SwL2fFHXsUYNkda8Nl4gfmPzN8j4veBBQg43feq9.jpg",
+    "photo_path": "university_photos/0Z06I78OP255gqf5mC1SQoyUEfYYcKlGegDqpeLi.png"
+  },
+  {
+    "id": 172,
+    "university_id": 148,
+    "name": "Zainual Haque Sikder Women's Medical College and Hospital",
+    "country": "Bangladesh",
+    "logo_path": "logos/TWm1iFUIzIIiNymISvMGWP8iaNNFLcdOz8jumVVB.jpg",
+    "photo_path": "university_photos/BLRswLRUkfpYEIt8PNbst5D3UITo4Ql2vtBMY29V.jpg"
+  },
+  {
+    "id": 173,
+    "university_id": 150,
+    "name": "MH Samorita Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/wLSkMN9DVsnJBxFqKIP8Ceq9q3fXZNlYcsvpdBjy.jpg",
+    "photo_path": "university_photos/gKQiUl9F9Uzp4vWuMOC02n8GgY79HITAFfQp6KWj.png"
+  },
+  {
+    "id": 174,
+    "university_id": 152,
+    "name": "Khulna City Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/LC3Mt7cJMmmtNfLp5Z2MT1Ji4dHgBo8V7JcLDYJy.jpg",
+    "photo_path": "university_photos/bd5EcCCQo1JDKHiLZ30B21VI9wmSGFyZETsUHIWC.png"
+  },
+  {
+    "id": 175,
+    "university_id": 153,
+    "name": "Dhaka Community Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/mXj2lqgdEhb0elhkXhnYtVIkai0w2gxTbTDKfoUe.png",
+    "photo_path": "university_photos/eUJ2cwOH6bzuSa2PDyPcBN7ZW2ZOFTwcr8tFKbME.png"
+  },
+  {
+    "id": 176,
+    "university_id": 154,
+    "name": "City Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/HuiILx9mDXCi7v1cqImWt1b0FpAWIyTY2QikhZOu.jpg",
+    "photo_path": "university_photos/mNtj7vIWTtBN0UvxIzIU2TLm2suGMu6Hp50WP0k6.jpg"
+  },
+  {
+    "id": 177,
+    "university_id": 155,
+    "name": "Jahurul Islam Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/IlJNNyuv32BTp3MO02r5kvbw3gtH8CTQB4YWPKMg.jpg",
+    "photo_path": "university_photos/9OgCmksnmAEZY7GWLCiLm38MXUAjzdvZOSsOcOHK.jpg"
+  },
+  {
+    "id": 178,
+    "university_id": 156,
+    "name": "Parkview Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/NkBbZHI7r1deKwXSn79KqsvP8WUt4c92NmUHtY8M.jpg",
+    "photo_path": "university_photos/54hwOrneHak4iYPPg8oYELRxAsuvpQ3HKfIGN4TI.png"
+  },
+  {
+    "id": 179,
+    "university_id": 157,
+    "name": "Central Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/orUDTn7FmPCcGjC3h8RrxHFUwZbglKh4rjtD1Fel.jpg",
+    "photo_path": "university_photos/gu2wwGbM3FK3vUGb40awIBiZfI3jCNoxwmK6Chsv.jpg"
+  },
+  {
+    "id": 180,
+    "university_id": 158,
+    "name": "North East Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/Yp2YyvsQTmOVEXtjhGvzvlXtXvjznUGwnWJ6Bk2W.png",
+    "photo_path": "university_photos/JqlEHsZZZDDcuX8wb0w90cPZbDCU59i1IqXNQS7q.jpg"
+  },
+  {
+    "id": 181,
+    "university_id": 159,
+    "name": "US-Bangla Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/xjZpEKCc0ap5z8BB3VBZEfdITFHADOXgXcQ0FBb4.png",
+    "photo_path": "university_photos/adgsp6G6Az7KJU1R7HQ5ycgUuvTy0cDBur7RYssL.jpg"
+  },
+  {
+    "id": 182,
+    "university_id": 160,
+    "name": "Enam Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/Wgfb7T5W7rjQb2NEraCgZR0W2xZTqQDxy2eTU6A3.png",
+    "photo_path": "university_photos/HLcmyLa06aEQD3ZsJQfTIDfNbGDRaIWrua0vixCH.png"
+  },
+  {
+    "id": 183,
+    "university_id": 161,
+    "name": "Southern Medical College and Hospital",
+    "country": "Bangladesh",
+    "logo_path": "logos/ABmkoBJxPXFHn6BHvkQciHWz66qdYX6IIT1XEtUm.jpg",
+    "photo_path": "university_photos/kIq5hNnCR9hjfl4ktAyVtjesR8ukPUseWvhyq5Zc.png"
+  },
+  {
+    "id": 184,
+    "university_id": 162,
+    "name": "Monno Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/fJiPpwootzlwxl1U2MaoLKFGLe5ldcUwD9dnpoJ2.png",
+    "photo_path": "university_photos/XaKX8j6M5nAoCutUjkiX2Ig3dKlCpW92jTEc32eW.jpg"
+  },
+  {
+    "id": 185,
+    "university_id": 163,
+    "name": "Khwaja Yunus Ali Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/SqTi79XHt0KPzHqvMgClfy4epmrqtoEYyLOh22k7.png",
+    "photo_path": "university_photos/oKOAjTG8xbgWtJVqkwUsS7R2Bfd0slYHNUG5JhFG.png"
+  },
+  {
+    "id": 186,
+    "university_id": 164,
+    "name": "Holy Family Red Crescent Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/bNdskVEpc894zd4L1NPGIDfj9BCaFsnCPBQUm8r4.png",
+    "photo_path": "university_photos/yb2nGFRyPzXyi43cBvmAA5XHY4K4mapn3QxGD2kZ.png"
+  },
+  {
+    "id": 187,
+    "university_id": 165,
+    "name": "Kumudini Women\u2019s Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/NMA99fFeza4sognf5r1XyKOnCAFRfmTHa2nGk6iG.png",
+    "photo_path": "university_photos/IVZ7NueKZz0LsVyv8IqJpbMQKJSxwdKHPnkNs18a.jpg"
+  },
+  {
+    "id": 188,
+    "university_id": 166,
+    "name": "East West Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/tgvhgx6M2yuYyIBnkS8WlFhLJVqPXrIXQYcJLb8q.png",
+    "photo_path": "university_photos/YHYp3VEMY0g8ts1WS1Mz3m8RIkWHpDg1klXgDRqR.jpg"
+  },
+  {
+    "id": 189,
+    "university_id": 167,
+    "name": "Green Life Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/PQbb9bYFDNNpCtWlCeQKuXEh1ob9iTlvRM2c7HFp.jpg",
+    "photo_path": "university_photos/2TJ7jDgDTwY4zQdVZnD89XVuqpG04FsASOqzHk6k.jpg"
+  },
+  {
+    "id": 190,
+    "university_id": 168,
+    "name": "Sylhet Women's Medical College",
+    "country": "Bangladesh",
+    "logo_path": "logos/hAtV9t2r2tfhuztRLvciIiGqSaI0kDtlJiGKorUx.png",
+    "photo_path": "university_photos/lS0laeqoEpSf9E0EtwwuwLi6fZkz7SqRiGQFw8TB.jpg"
+  }
+]
