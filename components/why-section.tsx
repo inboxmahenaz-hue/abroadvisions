@@ -1,4 +1,4 @@
-import { BadgeCheck, IndianRupee, Compass, MoonStar } from "lucide-react"
+import { BadgeCheck, IndianRupee, Compass, Globe2 } from "lucide-react"
 import { Reveal } from "@/components/reveal"
 import { SectionHeading } from "@/components/section-heading"
 
@@ -10,7 +10,7 @@ const reasons = [
   },
   {
     icon: IndianRupee,
-    title: "Total cost ₹20–45 lakh",
+    title: "Total cost ₹18–45 lakh",
     body: "Including tuition, hostel, food and travel — not just the first year. You get a transparent, full breakdown for every country.",
   },
   {
@@ -19,18 +19,21 @@ const reasons = [
     body: "Philippines is excluded from our recommendations because of NMC compliance risk, regardless of the commission. Your child's career comes first.",
   },
   {
-    icon: MoonStar,
-    title: "Muslim-friendly options available",
-    body: "Uzbekistan, Kyrgyzstan and Bangladesh are Muslim-majority countries with halal food, mosques and a familiar culture.",
+    icon: Globe2,
+    title: "Eight destinations, one right fit",
+    body: "Russia, Uzbekistan, Georgia, Kazakhstan, Kyrgyzstan, Armenia, Bangladesh, Nepal — each suits a different budget, timeline, and priority. We match you to the right one.",
   },
 ]
 
 const comparison = [
-  { label: "Private MBBS in India", value: "₹80L – ₹1 Cr", pct: 100, tone: "bg-destructive" },
-  { label: "Georgia MBBS (total)", value: "₹35 – 50L", pct: 50, tone: "bg-primary" },
-  { label: "Nepal MBBS (total)", value: "₹35 – 45L", pct: 45, tone: "bg-primary" },
-  { label: "Uzbekistan MBBS (total)", value: "₹28 – 38L", pct: 38, tone: "bg-accent" },
-  { label: "Kyrgyzstan MBBS (total)", value: "₹20 – 28L", pct: 28, tone: "bg-success" },
+  { label: "Private MBBS in India",      value: "₹80L – ₹1 Cr", pct: 100, tone: "bg-destructive" },
+  { label: "Georgia MBBS (total)",        value: "₹28 – 42L",    pct: 42,  tone: "bg-primary/60" },
+  { label: "Bangladesh MBBS (total)",     value: "₹30 – 45L",    pct: 45,  tone: "bg-primary/60" },
+  { label: "Kazakhstan MBBS (total)",     value: "₹25 – 38L",    pct: 38,  tone: "bg-primary/60" },
+  { label: "Russia MBBS (total)",         value: "₹22 – 38L",    pct: 38,  tone: "bg-primary/60" },
+  { label: "Armenia MBBS (total)",        value: "₹22 – 30L",    pct: 30,  tone: "bg-accent" },
+  { label: "Uzbekistan MBBS (total)",     value: "₹20 – 30L",    pct: 30,  tone: "bg-accent" },
+  { label: "Kyrgyzstan MBBS (total)",     value: "₹18 – 28L",    pct: 28,  tone: "bg-success" },
 ]
 
 export function WhySection() {
@@ -77,14 +80,14 @@ export function WhySection() {
               <p className="mt-1.5 text-sm text-primary-foreground/70">
                 Total programme cost, not first-year fees.
               </p>
-              <div className="mt-7 space-y-5">
+              <div className="mt-7 space-y-4">
                 {comparison.map((c, i) => (
                   <div key={c.label}>
                     <div className="flex items-baseline justify-between text-sm">
                       <span className="font-medium text-primary-foreground/90">{c.label}</span>
                       <span className="font-semibold">{c.value}</span>
                     </div>
-                    <div className="mt-2 h-2 overflow-hidden rounded-full bg-primary-foreground/15">
+                    <div className="mt-1.5 h-2 overflow-hidden rounded-full bg-primary-foreground/15">
                       <div
                         className={`h-full rounded-full ${c.tone}`}
                         style={{
