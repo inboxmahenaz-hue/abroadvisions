@@ -25,7 +25,7 @@ export function GuideStickyButton() {
 
   return (
     <>
-      {/* Sticky floating button ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â bottom left */}
+      {/* Sticky floating button — bottom left */}
       {!open && (
         <button
           onClick={() => setOpen(true)}
@@ -46,12 +46,14 @@ export function GuideStickyButton() {
             fontWeight: 700,
             cursor: "pointer",
             boxShadow: "0 4px 24px rgba(0,0,0,0.22)",
-            transition: "transform 0.15s ease", animation: "guideBlink 1.5s step-start infinite", animation: "guidePulse 2s ease-in-out infinite",
+            transition: "transform 0.15s ease",
+            animation: "guideBlink 1.5s step-start infinite",
           }}
           onMouseEnter={e => (e.currentTarget.style.transform = "scale(1.04)")}
           onMouseLeave={e => (e.currentTarget.style.transform = "scale(1)")}
         >
-          <style>{`@keyframes guidePulse { 0%, 100% { box-shadow: 0 4px 24px rgba(0,0,0,0.22), 0 0 0 0 rgba(13,27,42,0.4); } 50% { box-shadow: 0 4px 24px rgba(0,0,0,0.22), 0 0 0 8px rgba(13,27,42,0); } }`}</style><style>{`@keyframes guideBlink { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }`}</style><BookOpen size={16} />
+          <style>{`@keyframes guideBlink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }`}</style>
+          <BookOpen size={16} />
           Free MBBS Guide
         </button>
       )}
@@ -79,7 +81,7 @@ export function GuideStickyButton() {
                 Free MBBS Abroad Guide 2025
               </p>
               <p style={{ fontSize: 12, color: "#6b7280", margin: "4px 0 0" }}>
-                The guide our counsellors share with every family ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â yours free via WhatsApp.
+                The guide our counsellors share with every family — yours free via WhatsApp.
               </p>
             </div>
             <button
@@ -93,8 +95,8 @@ export function GuideStickyButton() {
 
           {sent ? (
             <div style={{ textAlign: "center", padding: "12px 0" }}>
-              <div style={{ fontSize: 28, marginBottom: 6 }}>ÃƒÂ¢Ã…â€œÃ¢â‚¬Å“</div>
-              <p style={{ fontSize: 13, color: "#16a34a", fontWeight: 600, margin: 0 }}>Opening WhatsAppÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦</p>
+              <div style={{ fontSize: 28, marginBottom: 6 }}>✅</div>
+              <p style={{ fontSize: 13, color: "#16a34a", fontWeight: 600, margin: 0 }}>Opening WhatsApp…</p>
               <p style={{ fontSize: 12, color: "#6b7280", margin: "4px 0 0" }}>We'll send the guide right away.</p>
             </div>
           ) : (
