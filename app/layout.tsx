@@ -54,6 +54,12 @@ title: 'Abroad Visions — Honest MBBS Abroad Advisory for NEET Students',
   },
   alternates: {
     canonical: 'https://abroadvisions.com',
+  },icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '48x48' },
+      { url: '/icon.png', sizes: '512x512', type: 'image/png' },
+    ],
+    apple: '/apple-icon.png',
   },
 }
 
