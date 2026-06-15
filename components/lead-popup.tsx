@@ -2,10 +2,9 @@
 
 import { useEffect, useState } from "react"
 import { X, GraduationCap, Phone, User, BookOpen, ChevronRight } from "lucide-react"
-import { whatsappLink } from "@/lib/data"
 
-const STORAGE_KEY = "av_lead_popup_dismissed"
-const DELAY_MS = 5000 // 5 seconds
+const STORAGE_KEY = "av_lead_popup_submitted"
+const DELAY_MS = 120000 // 2 minutes
 
 export function LeadPopup() {
   const [visible, setVisible] = useState(false)
@@ -18,14 +17,30 @@ export function LeadPopup() {
   })
 
   useEffect(() => {
-    // Don't show if already dismissed this session
-    if (sessionStorage.getItem(STORAGE_KEY)) return
+    if (typeof window !== "undefined" && localStorage.getItem(STORAGE_KEY)) return
+
+    // Show after 2 minutes
     const timer = setTimeout(() => setVisible(true), DELAY_MS)
-    return () => clearTimeout(timer)
+
+    // Exit intent — fires once per visit
+    let exitFired = false
+    function handleExitIntent(e: MouseEvent) {
+      if (e.clientY <= 10 && !exitFired) {
+        if (typeof window !== "undefined" && localStorage.getItem(STORAGE_KEY)) return
+        exitFired = true
+        setVisible(true)
+      }
+    }
+
+    document.addEventListener("mousemove", handleExitIntent)
+    return () => {
+      clearTimeout(timer)
+      document.removeEventListener("mousemove", handleExitIntent)
+    }
   }, [])
 
   function dismiss() {
-    sessionStorage.setItem(STORAGE_KEY, "1")
+    // Close for this visit — resets on next visit (no sessionStorage/localStorage)
     setVisible(false)
   }
 
@@ -38,6 +53,10 @@ export function LeadPopup() {
     if (!form.name || !form.phone) return
     const msg = `Hi Abroad Visions! I'd like free MBBS counselling.%0AName: ${form.name}%0APhone: ${form.phone}${form.neetScore ? `%0ANEET Score: ${form.neetScore}` : ""}${form.targetCountry ? `%0APreferred Country: ${form.targetCountry}` : ""}`
     setSubmitted(true)
+    // Permanent — never show again after submitting
+    if (typeof window !== "undefined") {
+      localStorage.setItem(STORAGE_KEY, "1")
+    }
     setTimeout(() => {
       window.open(`https://wa.me/919084676999?text=${msg}`, "_blank")
       dismiss()
@@ -48,14 +67,11 @@ export function LeadPopup() {
 
   return (
     <>
-      {/* Backdrop */}
       <div
         className="fixed inset-0 z-[999] bg-black/40 backdrop-blur-sm transition-opacity"
         onClick={dismiss}
         aria-hidden="true"
       />
-
-      {/* Popup card */}
       <div
         role="dialog"
         aria-modal="true"
@@ -78,7 +94,7 @@ export function LeadPopup() {
             </div>
             <div>
               <p className="text-sm font-semibold text-white leading-tight">Free MBBS Counselling</p>
-              <p className="text-[11px] text-white/80">We'll call you within 2 hours</p>
+              <p className="text-[11px] text-white/80">Trusted by families across India</p>
             </div>
           </div>
           <button
@@ -93,22 +109,20 @@ export function LeadPopup() {
 
         {submitted ? (
           <div className="flex flex-col items-center gap-3 px-6 py-10 text-center">
-            <div className="flex size-14 items-center justify-center rounded-full bg-green-100 text-green-600 text-2xl">
-              ✓
-            </div>
+            <div className="flex size-14 items-center justify-center rounded-full bg-green-100 text-green-600 text-2xl">✓</div>
             <p className="font-display text-lg font-semibold text-foreground">Thank you, {form.name}!</p>
-            <p className="text-sm text-muted-foreground">
-              Opening WhatsApp so our counsellor can reach you right away.
-            </p>
+            <p className="text-sm text-muted-foreground">Opening WhatsApp — our counsellor will reach you shortly.</p>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="px-5 pb-5 pt-4">
+            <p className="text-sm text-muted-foreground mb-1 font-semibold text-foreground">
+              Get free MBBS abroad guidance
+            </p>
             <p className="text-sm text-muted-foreground mb-4">
-              Get a <strong className="text-foreground">free, no-obligation</strong> session with our MBBS expert — tailored to your NEET score and budget.
+              The guide our counsellors share with every family — plus one honest call, zero pressure.
             </p>
 
             <div className="space-y-3">
-              {/* Name */}
               <div className="relative">
                 <User className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground" />
                 <input
@@ -122,7 +136,6 @@ export function LeadPopup() {
                 />
               </div>
 
-              {/* Phone */}
               <div className="relative">
                 <Phone className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground" />
                 <input
@@ -130,7 +143,7 @@ export function LeadPopup() {
                   name="phone"
                   value={form.phone}
                   onChange={handleChange}
-                  placeholder="Mobile number *"
+                  placeholder="WhatsApp number *"
                   required
                   pattern="[6-9][0-9]{9}"
                   maxLength={10}
@@ -138,7 +151,6 @@ export function LeadPopup() {
                 />
               </div>
 
-              {/* NEET Score */}
               <div className="relative">
                 <BookOpen className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground" />
                 <input
@@ -153,7 +165,6 @@ export function LeadPopup() {
                 />
               </div>
 
-              {/* Country preference */}
               <select
                 name="targetCountry"
                 value={form.targetCountry}
@@ -164,10 +175,11 @@ export function LeadPopup() {
                 <option value="Russia">Russia</option>
                 <option value="Kazakhstan">Kazakhstan</option>
                 <option value="Kyrgyzstan">Kyrgyzstan</option>
-                <option value="Nepal">Nepal</option>
-                <option value="Bangladesh">Bangladesh</option>
+                <option value="Uzbekistan">Uzbekistan</option>
                 <option value="Georgia">Georgia</option>
                 <option value="Armenia">Armenia</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Bangladesh">Bangladesh</option>
                 <option value="Not sure">Not sure yet</option>
               </select>
             </div>
@@ -181,7 +193,7 @@ export function LeadPopup() {
             </button>
 
             <p className="mt-2.5 text-center text-[11px] text-muted-foreground">
-              🔒 Your details are kept private and never shared.
+              🔒 One honest call. Zero pressure. Never shared.
             </p>
           </form>
         )}
