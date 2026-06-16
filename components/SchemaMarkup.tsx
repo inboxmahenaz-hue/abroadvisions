@@ -92,35 +92,35 @@ export default function SchemaMarkup() {
     "itemListElement": [
       {
         "@type": "ListItem", "position": 1,
-        "item": { "@type": "Course", "name": "MBBS in Russia", "url": "https://abroadvisions.com/mbbs-university-finder?country=russia", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
+        "item": { "@type": "Course", "name": "MBBS in Russia", "description": "NMC-approved MBBS in Russia for Indian students. 6-year program with English medium teaching. Total cost ₹35–50 lakhs.", "url": "https://abroadvisions.com/mbbs-university-finder?country=russia", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
       },
       {
         "@type": "ListItem", "position": 2,
-        "item": { "@type": "Course", "name": "MBBS in Kyrgyzstan", "url": "https://abroadvisions.com/mbbs-university-finder?country=kyrgyzstan", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
+        "item": { "@type": "Course", "name": "MBBS in Kyrgyzstan", "description": "NMC-approved MBBS in Kyrgyzstan for Indian students. Affordable 6-year program. Total all-inclusive cost ₹28–40 lakhs.", "url": "https://abroadvisions.com/mbbs-university-finder?country=kyrgyzstan", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
       },
       {
         "@type": "ListItem", "position": 3,
-        "item": { "@type": "Course", "name": "MBBS in Kazakhstan", "url": "https://abroadvisions.com/mbbs-university-finder?country=kazakhstan", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
+        "item": { "@type": "Course", "name": "MBBS in Kazakhstan", "description": "NMC-approved MBBS in Kazakhstan for Indian students. English medium 6-year program. Total cost ₹32–48 lakhs.", "url": "https://abroadvisions.com/mbbs-university-finder?country=kazakhstan", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
       },
       {
         "@type": "ListItem", "position": 4,
-        "item": { "@type": "Course", "name": "MBBS in Uzbekistan", "url": "https://abroadvisions.com/mbbs-university-finder?country=uzbekistan", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
+        "item": { "@type": "Course", "name": "MBBS in Uzbekistan", "description": "NMC-approved MBBS in Uzbekistan for Indian students. Most affordable option at ₹22–32 lakhs total for 6 years.", "url": "https://abroadvisions.com/mbbs-university-finder?country=uzbekistan", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
       },
       {
         "@type": "ListItem", "position": 5,
-        "item": { "@type": "Course", "name": "MBBS in Georgia", "url": "https://abroadvisions.com/mbbs-university-finder?country=georgia", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
+        "item": { "@type": "Course", "name": "MBBS in Georgia", "description": "NMC-approved MBBS in Georgia for Indian students. European standard medical education. Total cost ₹30–45 lakhs.", "url": "https://abroadvisions.com/mbbs-university-finder?country=georgia", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
       },
       {
         "@type": "ListItem", "position": 6,
-        "item": { "@type": "Course", "name": "MBBS in Armenia", "url": "https://abroadvisions.com/mbbs-university-finder?country=armenia", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
+        "item": { "@type": "Course", "name": "MBBS in Armenia", "description": "NMC-approved MBBS in Armenia for Indian students. Quality medical education at ₹25–38 lakhs total for 6 years.", "url": "https://abroadvisions.com/mbbs-university-finder?country=armenia", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
       },
       {
         "@type": "ListItem", "position": 7,
-        "item": { "@type": "Course", "name": "MBBS in Bangladesh", "url": "https://abroadvisions.com/mbbs-university-finder?country=bangladesh", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
+        "item": { "@type": "Course", "name": "MBBS in Bangladesh", "description": "NMC-approved MBBS in Bangladesh for Indian students. Nearby destination with familiar culture. Total cost ₹35–50 lakhs.", "url": "https://abroadvisions.com/mbbs-university-finder?country=bangladesh", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
       },
       {
         "@type": "ListItem", "position": 8,
-        "item": { "@type": "Course", "name": "MBBS in Nepal", "url": "https://abroadvisions.com/mbbs-university-finder?country=nepal", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
+        "item": { "@type": "Course", "name": "MBBS in Nepal", "description": "NMC-approved MBBS in Nepal for Indian students. Closest destination with no language barrier. Affordable 6-year program.", "url": "https://abroadvisions.com/mbbs-university-finder?country=nepal", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
       }
     ]
   }
@@ -139,10 +139,7 @@ export default function SchemaMarkup() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(courseListSchema) }}
-      />
+
     </>
   )
 }
