@@ -83,26 +83,46 @@ export default function SchemaMarkup() {
     ]
   }
 
-  const educationalOrgSchema = {
+  const courseListSchema = {
     "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
-    "name": "Abroad Visions — MBBS Abroad Consultancy",
+    "@type": "ItemList",
+    "name": "MBBS Abroad Programs for Indian Students",
+    "description": "NMC-approved MBBS programs abroad for Indian students across 8 countries",
     "url": "https://abroadvisions.com",
-    "description": "Honest MBBS abroad advisory helping Indian students choose NMC-approved universities across 8 countries with real cost data and FMGE statistics.",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "MBBS Abroad Programs",
-      "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "MBBS in Russia" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "MBBS in Kyrgyzstan" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "MBBS in Kazakhstan" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "MBBS in Uzbekistan" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "MBBS in Georgia" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "MBBS in Armenia" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "MBBS in Bangladesh" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "MBBS in Nepal" } }
-      ]
-    }
+    "itemListElement": [
+      {
+        "@type": "ListItem", "position": 1,
+        "item": { "@type": "Course", "name": "MBBS in Russia", "url": "https://abroadvisions.com/mbbs-university-finder?country=russia", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
+      },
+      {
+        "@type": "ListItem", "position": 2,
+        "item": { "@type": "Course", "name": "MBBS in Kyrgyzstan", "url": "https://abroadvisions.com/mbbs-university-finder?country=kyrgyzstan", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
+      },
+      {
+        "@type": "ListItem", "position": 3,
+        "item": { "@type": "Course", "name": "MBBS in Kazakhstan", "url": "https://abroadvisions.com/mbbs-university-finder?country=kazakhstan", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
+      },
+      {
+        "@type": "ListItem", "position": 4,
+        "item": { "@type": "Course", "name": "MBBS in Uzbekistan", "url": "https://abroadvisions.com/mbbs-university-finder?country=uzbekistan", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
+      },
+      {
+        "@type": "ListItem", "position": 5,
+        "item": { "@type": "Course", "name": "MBBS in Georgia", "url": "https://abroadvisions.com/mbbs-university-finder?country=georgia", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
+      },
+      {
+        "@type": "ListItem", "position": 6,
+        "item": { "@type": "Course", "name": "MBBS in Armenia", "url": "https://abroadvisions.com/mbbs-university-finder?country=armenia", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
+      },
+      {
+        "@type": "ListItem", "position": 7,
+        "item": { "@type": "Course", "name": "MBBS in Bangladesh", "url": "https://abroadvisions.com/mbbs-university-finder?country=bangladesh", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
+      },
+      {
+        "@type": "ListItem", "position": 8,
+        "item": { "@type": "Course", "name": "MBBS in Nepal", "url": "https://abroadvisions.com/mbbs-university-finder?country=nepal", "provider": { "@type": "Organization", "name": "Abroad Visions", "url": "https://abroadvisions.com" } }
+      }
+    ]
   }
 
   return (
@@ -121,7 +141,7 @@ export default function SchemaMarkup() {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(educationalOrgSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(courseListSchema) }}
       />
     </>
   )
