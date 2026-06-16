@@ -3,6 +3,14 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "Terms & Conditions — Abroad Visions",
+  description: "Terms governing the use of Abroad Visions MBBS abroad counselling services, website content, and advisory information.",
+  alternates: {
+    canonical: "https://abroadvisions.com/terms",
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
 }
 
 export default function TermsPage() {
@@ -12,7 +20,7 @@ export default function TermsPage() {
         <Link href="/" className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-accent">
           ← Back to Abroad Visions
         </Link>
-        <h1 className="mt-8 font-display text-4xl font-semibold text-foreground">Terms & Conditions</h1>
+        <h1 className="mt-8 font-display text-4xl font-semibold text-foreground">Terms &amp; Conditions</h1>
         <p className="mt-2 text-sm text-muted-foreground">Last updated: June 2025</p>
         <div className="mt-10 space-y-6 text-sm leading-relaxed text-muted-foreground [&_h2]:font-display [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:text-foreground [&_h2]:mt-8 [&_h2]:mb-2">
           <p>By using the Abroad Visions website and services, you agree to these terms.</p>
@@ -27,7 +35,7 @@ export default function TermsPage() {
           <p>Abroad Visions facilitates the application process. We cannot and do not guarantee admission to any university. Admission decisions are made solely by the respective institutions.</p>
 
           <h2>4. No Guarantee of FMGE/NExT Outcome</h2>
-          <p>Past FMGE pass rates we share are historical data points, not predictions of future outcomes. FMGE/NExT performance depends on the student's own preparation and effort.</p>
+          <p>Past FMGE pass rates we share are historical data points, not predictions of future outcomes. FMGE/NExT performance depends on the student&apos;s own preparation and effort.</p>
 
           <h2>5. Fees and Payments</h2>
           <p>Counselling is free. Where service fees apply (for application processing or documentation support), these will be clearly communicated and agreed upon in writing before any payment is requested.</p>

@@ -3,7 +3,14 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "Privacy Policy — Abroad Visions",
-  description: "How Abroad Visions collects, uses, and protects your personal information.",
+  description: "How Abroad Visions collects, uses, and protects your personal information when you seek MBBS abroad counselling.",
+  alternates: {
+    canonical: "https://abroadvisions.com/privacy",
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
 }
 
 export default function PrivacyPage() {
@@ -73,7 +80,7 @@ export default function PrivacyPage() {
               rel="noopener noreferrer"
               className="text-accent hover:underline"
             >
-              WhatsApp's own Privacy Policy
+              WhatsApp&apos;s own Privacy Policy
             </a>
             .
           </p>
@@ -91,7 +98,7 @@ export default function PrivacyPage() {
             in your browser settings.
           </p>
 
-          <h2>6. Children's Privacy</h2>
+          <h2>6. Children&apos;s Privacy</h2>
           <p>
             Our services are directed to students and their parents. We do not knowingly collect information
             from anyone under the age of 16 without parental consent. In practice, most enquiries are made
@@ -116,7 +123,7 @@ export default function PrivacyPage() {
 
           <h2>8. Changes to This Policy</h2>
           <p>
-            We may update this policy from time to time. The "last updated" date at the top of this page will
+            We may update this policy from time to time. The &quot;last updated&quot; date at the top of this page will
             reflect any changes. Continued use of our services after a change constitutes acceptance of the
             updated policy.
           </p>
