@@ -5,7 +5,7 @@ import { Navbar } from "@/components/navbar"
 import { SiteFooter } from "@/components/site-footer"
 import { Clock, Tag, ArrowLeft } from "lucide-react"
 import Link from "next/link"
-
+export const dynamic = 'force-dynamic'
 // Dynamically import post components
 import { MbbsKyrgyzstanFees2025 } from "@/components/blog/posts/mbbs-kyrgyzstan-fees-2025"
 
@@ -13,9 +13,7 @@ const postComponents: Record<string, React.ComponentType> = {
   "mbbs-in-kyrgyzstan-fees-2025": MbbsKyrgyzstanFees2025,
 }
 
-export async function generateStaticParams() {
-  return blogPosts.map((post) => ({ slug: post.slug }))
-}
+
 
 export async function generateMetadata({
   params,
