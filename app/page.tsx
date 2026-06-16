@@ -1,3 +1,4 @@
+import SchemaMarkup from "@/components/SchemaMarkup"
 import { Navbar } from "@/components/navbar"
 import { Hero } from "@/components/hero"
 import { WhySection } from "@/components/why-section"
@@ -20,6 +21,7 @@ export default function Page() {
   return (
     <>
       <Navbar />
+      <SchemaMarkup />
       <main>
         <Hero />
         <WhySection />
