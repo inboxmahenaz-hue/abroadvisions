@@ -9,11 +9,13 @@ export const dynamic = 'force-dynamic'
 import { MbbsKyrgyzstanFees2025 } from "@/components/blog/posts/mbbs-kyrgyzstan-fees-2025"
 import { FmgePassRatesCountry2024 } from "@/components/blog/posts/fmge-pass-rates-country-2024"
 import { MbbsAbroadCostComparison2025 } from "@/components/blog/posts/mbbs-abroad-cost-comparison-2025"
+import { EducationLoanMbbsAbroad2025 } from "@/components/blog/posts/education-loan-mbbs-abroad-2025"
 
 const postComponents: Record<string, React.ComponentType> = {
   "mbbs-in-kyrgyzstan-fees-2025": MbbsKyrgyzstanFees2025,
   "fmge-pass-rates-by-country-2024": FmgePassRatesCountry2024,
   "mbbs-abroad-cost-comparison-2025": MbbsAbroadCostComparison2025,
+  "education-loan-mbbs-abroad-2025": EducationLoanMbbsAbroad2025,
 }
 
 export async function generateMetadata({

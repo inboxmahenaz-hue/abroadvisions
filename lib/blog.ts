@@ -57,6 +57,24 @@ export const blogPosts: BlogPost[] = [
       "MBBS abroad vs private MBBS India cost",
     ],
   },
+  {
+    slug: "education-loan-mbbs-abroad-2025",
+    title: "Education Loan for MBBS Abroad 2025 — Which Banks, How Much, and How to Apply",
+    excerpt:
+      "SBI, Bank of Baroda, Canara Bank and more — complete guide to education loans for MBBS abroad. Loan amounts, interest rates, documents, repayment timeline, and government subsidies explained.",
+    date: "2026-06-17",
+    readingTime: "11 min read",
+    category: "Finance Guide",
+    keywords: [
+      "education loan for MBBS abroad",
+      "bank loan for MBBS abroad India",
+      "SBI education loan MBBS abroad",
+      "education loan for MBBS abroad without collateral",
+      "MBBS abroad loan repayment",
+      "which bank is best for education loan MBBS abroad",
+      "education loan interest rate MBBS abroad 2025",
+    ],
+  },
 ]
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
