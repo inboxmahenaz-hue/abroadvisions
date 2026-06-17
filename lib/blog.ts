@@ -39,6 +39,24 @@ export const blogPosts: BlogPost[] = [
       "MBBS abroad FMGE results",
     ],
   },
+  {
+    slug: "mbbs-abroad-cost-comparison-2025",
+    title: "MBBS Abroad Total Cost 2025 — All 8 Countries Compared (Everything Included)",
+    excerpt:
+      "Complete all-inclusive cost breakdown for MBBS abroad in Kyrgyzstan, Uzbekistan, Russia, Georgia, Kazakhstan, Armenia, Bangladesh and Nepal. Real numbers — tuition, hostel, food, visa, and hidden costs.",
+    date: "2026-06-17",
+    readingTime: "12 min read",
+    category: "Cost Guide",
+    keywords: [
+      "MBBS abroad total cost 2025",
+      "MBBS abroad fees all countries",
+      "cheapest country for MBBS abroad Indian students",
+      "MBBS abroad cost comparison 2025",
+      "MBBS abroad fees in rupees 2025",
+      "total cost of MBBS abroad including everything",
+      "MBBS abroad vs private MBBS India cost",
+    ],
+  },
 ]
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
