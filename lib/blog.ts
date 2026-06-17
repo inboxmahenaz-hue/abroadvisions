@@ -23,6 +23,22 @@ export const blogPosts: BlogPost[] = [
       "MBBS Kyrgyzstan total cost",
     ],
   },
+  {
+    slug: "fmge-pass-rates-by-country-2024",
+    title: "FMGE Pass Rates by Country 2024 — Which Countries Actually Produce Doctors Who Clear the Exam?",
+    excerpt:
+      "Official NBEMS data on FMGE pass rates for Russia, Georgia, Nepal, Uzbekistan, Kyrgyzstan, Philippines and more. The numbers most consultants don't show you.",
+    date: "2026-06-17",
+    readingTime: "10 min read",
+    category: "FMGE Guide",
+    keywords: [
+      "FMGE pass rate by country 2024",
+      "FMGE pass percentage country wise",
+      "which country has best FMGE pass rate",
+      "FMGE pass rate Russia Georgia Nepal",
+      "MBBS abroad FMGE results",
+    ],
+  },
 ]
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

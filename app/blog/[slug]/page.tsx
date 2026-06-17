@@ -8,9 +8,11 @@ import Link from "next/link"
 export const dynamic = 'force-dynamic'
 // Dynamically import post components
 import { MbbsKyrgyzstanFees2025 } from "@/components/blog/posts/mbbs-kyrgyzstan-fees-2025"
+import { FmgePassRatesCountry2024 } from "@/components/blog/posts/fmge-pass-rates-country-2024"
 
 const postComponents: Record<string, React.ComponentType> = {
   "mbbs-in-kyrgyzstan-fees-2025": MbbsKyrgyzstanFees2025,
+  "fmge-pass-rates-by-country-2024": FmgePassRatesCountry2024,
 }
 
 
