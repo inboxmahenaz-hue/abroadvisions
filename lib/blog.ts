@@ -75,6 +75,24 @@ export const blogPosts: BlogPost[] = [
       "education loan interest rate MBBS abroad 2025",
     ],
   },
+  {
+    slug: "is-mbbs-abroad-worth-it",
+    title: "Is MBBS Abroad Worth It in 2025? Honest Answer for Indian Families",
+    excerpt:
+      "The real cost comparison, FMGE truth, country-by-country verdict, and ROI calculation. For families deciding between MBBS abroad and private colleges in India.",
+    date: "2026-06-17",
+    readingTime: "12 min read",
+    category: "Decision Guide",
+    keywords: [
+      "is MBBS abroad worth it",
+      "MBBS abroad worth it 2025",
+      "MBBS abroad vs private college India",
+      "FMGE pass rate country wise",
+      "MBBS abroad pros and cons",
+      "is MBBS abroad recognised in India",
+      "MBBS abroad for Indian students 2025",
+    ],
+  },
 ]
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

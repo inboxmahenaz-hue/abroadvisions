@@ -10,12 +10,14 @@ import { MbbsKyrgyzstanFees2025 } from "@/components/blog/posts/mbbs-kyrgyzstan-
 import { FmgePassRatesCountry2024 } from "@/components/blog/posts/fmge-pass-rates-country-2024"
 import { MbbsAbroadCostComparison2025 } from "@/components/blog/posts/mbbs-abroad-cost-comparison-2025"
 import { EducationLoanMbbsAbroad2025 } from "@/components/blog/posts/education-loan-mbbs-abroad-2025"
+import { IsMbbsAbroadWorthIt2025 } from "@/components/blog/posts/is-mbbs-abroad-worth-it"
 
 const postComponents: Record<string, React.ComponentType> = {
   "mbbs-in-kyrgyzstan-fees-2025": MbbsKyrgyzstanFees2025,
   "fmge-pass-rates-by-country-2024": FmgePassRatesCountry2024,
   "mbbs-abroad-cost-comparison-2025": MbbsAbroadCostComparison2025,
   "education-loan-mbbs-abroad-2025": EducationLoanMbbsAbroad2025,
+  "is-mbbs-abroad-worth-it": IsMbbsAbroadWorthIt2025,
 }
 
 export async function generateMetadata({
