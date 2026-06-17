@@ -1,90 +1,111 @@
 import type { Metadata } from "next"
-import Link from "next/link"
-import { blogPosts } from "@/lib/blog"
+import { notFound } from "next/navigation"
+import { getPostBySlug } from "@/lib/blog"
 import { Navbar } from "@/components/navbar"
 import { SiteFooter } from "@/components/site-footer"
-import { ArrowUpRight, Clock, Tag } from "lucide-react"
+import { Clock, Tag, ArrowLeft } from "lucide-react"
+import Link from "next/link"
+export const dynamic = 'force-dynamic'
+import { MbbsKyrgyzstanFees2025 } from "@/components/blog/posts/mbbs-kyrgyzstan-fees-2025"
+import { FmgePassRatesCountry2024 } from "@/components/blog/posts/fmge-pass-rates-country-2024"
 
-export const metadata: Metadata = {
-  title: "MBBS Abroad Blog — Honest Guides for Indian Students | Abroad Visions",
-  description:
-    "Fee breakdowns, FMGE data, country comparisons, and loan guides for Indian students planning MBBS abroad. Written by counsellors who track real outcomes.",
-  alternates: {
-    canonical: "https://abroadvisions.com/blog",
-  },
+const postComponents: Record<string, React.ComponentType> = {
+  "mbbs-in-kyrgyzstan-fees-2025": MbbsKyrgyzstanFees2025,
+  "fmge-pass-rates-by-country-2024": FmgePassRatesCountry2024,
 }
 
-export default function BlogPage() {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}): Promise<Metadata> {
+  const { slug } = await params
+  const post = getPostBySlug(slug)
+  if (!post) return {}
+
+  return {
+    title: `${post.title} | Abroad Visions`,
+    description: post.excerpt,
+    keywords: post.keywords,
+    alternates: {
+      canonical: `https://abroadvisions.com/blog/${post.slug}`,
+    },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      url: `https://abroadvisions.com/blog/${post.slug}`,
+      siteName: "Abroad Visions",
+      type: "article",
+      publishedTime: post.date,
+    },
+  }
+}
+
+export default async function BlogPostPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}) {
+  const { slug } = await params
+  const post = getPostBySlug(slug)
+  if (!post) notFound()
+
+  const PostContent = postComponents[slug]
+  if (!PostContent) notFound()
+
   return (
     <>
       <Navbar />
       <main className="min-h-screen bg-background">
-        <div className="mx-auto max-w-4xl px-4 pb-24 pt-32">
-          {/* Header */}
-          <div className="mb-12">
-            <span className="text-xs font-semibold uppercase tracking-widest text-accent">
-              Abroad Visions Blog
-            </span>
-            <h1 className="mt-3 font-display text-4xl font-semibold text-foreground sm:text-5xl">
-              Honest guides for MBBS abroad.
-            </h1>
-            <p className="mt-4 max-w-xl text-base leading-relaxed text-muted-foreground">
-              Fee breakdowns, FMGE data, country comparisons — written by counsellors who
-              track real student outcomes, not commission rates.
-            </p>
-          </div>
+        <div className="mx-auto max-w-3xl px-4 pb-24 pt-32">
+          <Link
+            href="/blog"
+            className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground transition-colors hover:text-accent"
+          >
+            <ArrowLeft className="size-4" />
+            All guides
+          </Link>
 
-          {/* Post list */}
-          <div className="space-y-6">
-            {blogPosts.map((post) => (
-              <Link
-                key={post.slug}
-                href={`/blog/${post.slug}`}
-                className="group block rounded-2xl border border-border bg-card p-6 transition-all hover:-translate-y-0.5 hover:border-accent/40 hover:shadow-[0_12px_30px_-12px_rgb(0,0,0,0.15)]"
-              >
-                <div className="flex items-center gap-3 text-xs text-muted-foreground">
-                  <span className="inline-flex items-center gap-1.5 rounded-full bg-accent/10 px-2.5 py-1 font-medium text-accent">
-                    <Tag className="size-3" />
-                    {post.category}
-                  </span>
-                  <span className="inline-flex items-center gap-1.5">
-                    <Clock className="size-3" />
-                    {post.readingTime}
-                  </span>
-                  <span>
-                    {new Date(post.date).toLocaleDateString("en-IN", {
-                      day: "numeric",
-                      month: "long",
-                      year: "numeric",
-                    })}
-                  </span>
-                </div>
-
-                <h2 className="mt-3 font-display text-xl font-semibold text-foreground leading-snug group-hover:text-accent transition-colors">
-                  {post.title}
-                </h2>
-                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                  {post.excerpt}
-                </p>
-
-                <div className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-accent">
-                  Read guide
-                  <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                </div>
-              </Link>
-            ))}
-          </div>
-
-          {/* Coming soon */}
-          <div className="mt-10 rounded-2xl border border-dashed border-border bg-secondary/40 p-6 text-center">
-            <p className="text-sm text-muted-foreground">
-              More guides coming soon —{" "}
-              <span className="font-medium text-foreground">
-                FMGE country data, education loans, Russia vs Kyrgyzstan comparison
+          <div className="mt-8">
+            <div className="flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-accent/10 px-2.5 py-1 font-medium text-accent">
+                <Tag className="size-3" />
+                {post.category}
               </span>
-              {" "}and more.
+              <span className="inline-flex items-center gap-1.5">
+                <Clock className="size-3" />
+                {post.readingTime}
+              </span>
+              <span>
+                {new Date(post.date).toLocaleDateString("en-IN", {
+                  day: "numeric",
+                  month: "long",
+                  year: "numeric",
+                })}
+              </span>
+            </div>
+
+            <h1 className="mt-4 font-display text-3xl font-semibold leading-snug text-foreground sm:text-4xl">
+              {post.title}
+            </h1>
+            <p className="mt-3 text-base leading-relaxed text-muted-foreground">
+              {post.excerpt}
             </p>
+
+            <div className="mt-4 flex items-center gap-3">
+              <div className="flex size-9 items-center justify-center rounded-full bg-accent/10 text-sm font-bold text-accent">
+                AV
+              </div>
+              <div>
+                <p className="text-sm font-medium text-foreground">Abroad Visions Team</p>
+                <p className="text-xs text-muted-foreground">MBBS Abroad Counsellors, Dehradun</p>
+              </div>
+            </div>
           </div>
+
+          <hr className="my-8 border-border" />
+
+          <PostContent />
         </div>
       </main>
       <SiteFooter />
