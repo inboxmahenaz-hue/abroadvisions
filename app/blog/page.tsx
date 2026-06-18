@@ -1,111 +1,57 @@
 import type { Metadata } from "next"
-import { notFound } from "next/navigation"
-import { getPostBySlug } from "@/lib/blog"
+import Link from "next/link"
 import { Navbar } from "@/components/navbar"
 import { SiteFooter } from "@/components/site-footer"
-import { Clock, Tag, ArrowLeft } from "lucide-react"
-import Link from "next/link"
-export const dynamic = 'force-dynamic'
-import { MbbsKyrgyzstanFees2025 } from "@/components/blog/posts/mbbs-kyrgyzstan-fees-2025"
-import { FmgePassRatesCountry2024 } from "@/components/blog/posts/fmge-pass-rates-country-2024"
+import { getAllPosts } from "@/lib/blog"
 
-const postComponents: Record<string, React.ComponentType> = {
-  "mbbs-in-kyrgyzstan-fees-2025": MbbsKyrgyzstanFees2025,
-  "fmge-pass-rates-by-country-2024": FmgePassRatesCountry2024,
+export const metadata: Metadata = {
+  title: "MBBS Abroad Blog — Fees, FMGE Data & Country Guides | Abroad Visions",
+  description: "Honest, data-backed guides on MBBS abroad for Indian students. Country-wise fees, FMGE pass rates, education loans and more.",
+  alternates: { canonical: "https://abroadvisions.com/blog" },
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ slug: string }>
-}): Promise<Metadata> {
-  const { slug } = await params
-  const post = getPostBySlug(slug)
-  if (!post) return {}
-
-  return {
-    title: `${post.title} | Abroad Visions`,
-    description: post.excerpt,
-    keywords: post.keywords,
-    alternates: {
-      canonical: `https://abroadvisions.com/blog/${post.slug}`,
-    },
-    openGraph: {
-      title: post.title,
-      description: post.excerpt,
-      url: `https://abroadvisions.com/blog/${post.slug}`,
-      siteName: "Abroad Visions",
-      type: "article",
-      publishedTime: post.date,
-    },
-  }
-}
-
-export default async function BlogPostPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>
-}) {
-  const { slug } = await params
-  const post = getPostBySlug(slug)
-  if (!post) notFound()
-
-  const PostContent = postComponents[slug]
-  if (!PostContent) notFound()
+export default function BlogIndexPage() {
+  const posts = getAllPosts()
 
   return (
     <>
       <Navbar />
       <main className="min-h-screen bg-background">
         <div className="mx-auto max-w-3xl px-4 pb-24 pt-32">
-          <Link
-            href="/blog"
-            className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground transition-colors hover:text-accent"
-          >
-            <ArrowLeft className="size-4" />
-            All guides
-          </Link>
+          <h1 className="font-display text-3xl font-semibold text-foreground sm:text-4xl">
+            MBBS Abroad — Guides & Insights
+          </h1>
+          <p className="mt-3 text-base text-muted-foreground">
+            Honest, data-backed articles to help Indian families make the right decision.
+          </p>
 
-          <div className="mt-8">
-            <div className="flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-accent/10 px-2.5 py-1 font-medium text-accent">
-                <Tag className="size-3" />
-                {post.category}
-              </span>
-              <span className="inline-flex items-center gap-1.5">
-                <Clock className="size-3" />
-                {post.readingTime}
-              </span>
-              <span>
-                {new Date(post.date).toLocaleDateString("en-IN", {
-                  day: "numeric",
-                  month: "long",
-                  year: "numeric",
-                })}
-              </span>
-            </div>
-
-            <h1 className="mt-4 font-display text-3xl font-semibold leading-snug text-foreground sm:text-4xl">
-              {post.title}
-            </h1>
-            <p className="mt-3 text-base leading-relaxed text-muted-foreground">
-              {post.excerpt}
-            </p>
-
-            <div className="mt-4 flex items-center gap-3">
-              <div className="flex size-9 items-center justify-center rounded-full bg-accent/10 text-sm font-bold text-accent">
-                AV
-              </div>
-              <div>
-                <p className="text-sm font-medium text-foreground">Abroad Visions Team</p>
-                <p className="text-xs text-muted-foreground">MBBS Abroad Counsellors, Dehradun</p>
-              </div>
-            </div>
+          <div className="mt-12 flex flex-col gap-10">
+            {posts.map((post) => (
+              <article key={post.slug} className="border-b border-border pb-10">
+                <p className="text-xs text-muted-foreground mb-2">
+                  {new Date(post.date).toLocaleDateString("en-IN", {
+                    day: "numeric", month: "long", year: "numeric",
+                  })}
+                  {" · "}
+                  {post.readingTime}
+                </p>
+                <Link href={`/blog/${post.slug}`}>
+                  <h2 className="text-xl font-semibold text-foreground hover:text-accent transition-colors">
+                    {post.title}
+                  </h2>
+                </Link>
+                <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
+                  {post.excerpt}
+                </p>
+                <Link
+                  href={`/blog/${post.slug}`}
+                  className="mt-3 inline-block text-sm font-medium text-accent hover:underline"
+                >
+                  Read guide →
+                </Link>
+              </article>
+            ))}
           </div>
-
-          <hr className="my-8 border-border" />
-
-          <PostContent />
         </div>
       </main>
       <SiteFooter />
