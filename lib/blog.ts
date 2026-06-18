@@ -1,3 +1,13 @@
+export interface BlogPost {
+  slug: string
+  title: string
+  excerpt: string
+  date: string
+  readingTime: string
+  category: string
+  keywords: string[]
+}
+
 export const blogPosts: BlogPost[] = [
   {
     slug: "mbbs-in-kyrgyzstan-fees-2025",
@@ -89,3 +99,7 @@ export const blogPosts: BlogPost[] = [
     ],
   },
 ]
+
+export function getPostBySlug(slug: string): BlogPost | undefined {
+  return blogPosts.find((p) => p.slug === slug)
+}
